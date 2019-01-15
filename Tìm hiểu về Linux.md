@@ -85,8 +85,12 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 | ------ | -------|
 |Dựa trên Debian | Dựa trên RHEL|
 |Cập nhật thường xuyên | Cập nhật quan trọng|
-|Không hỗ trợ cPanel(có phương pháp thay thế)|
+|Không hỗ trợ cPanel(có phương pháp thay thế)|Hỗ trợ cPanel/WHM|
+|Cộng đồng người dùng và lập trình viên lớn| Cộng đồng người dùng và lập trình viên nhỏ hơn|
+| Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí| Trợ giúp online có thể ít hơn|
+|Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc5MDExMzgsOTYyNzI0OTY3LC0yMD
-g4NzQ2NjEyLDE1ODg5MzMwNl19
+eyJoaXN0b3J5IjpbLTQ5MTYwNjQyOCw5NjI3MjQ5NjcsLTIwOD
+g3NDY2MTIsMTU4ODkzMzA2XX0=
 -->
