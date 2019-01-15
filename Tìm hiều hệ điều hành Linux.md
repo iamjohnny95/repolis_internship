@@ -129,8 +129,9 @@ Sự kết hợp giữa nhân Linux, với các phần mềm của GNU đã tạ
 ## Phân biệt giữa linux và window
 ### Cấu trúc file
 ![Cấu trúc file](https://st.quantrimang.com/photos/image/092012/29/linux1.jpg)  
-_Cây hệ thống file trên Linux dạng thế này_
+_Cây hệ thống file trên Linux dạng thế này_  
+Cấu trúc cơ sở của Linux khác hoàn toàn so với Windows. Nó được phát triển trên một mã gốc riêng với các nhà phát triển riêng rẽ. Bạn sẽ không tìm thấy thư mục My Documents trên Ubuntu hay Program Files trên Fedora. Cũng không có các ổ đĩa C: hay D: xuất hiện. Thay vào đó, có một cây dữ liệu và các ổ đĩa được bung vào cây đó. Tương tự, thư mục home và desktop đều là một phần trong cây dữ liệu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjkwMTg2LC0xNTU3MjIzODk2LDEwOT
-c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODNdfQ==
+eyJoaXN0b3J5IjpbMjAzOTc2NjYyNCwtMTU1NzIyMzg5NiwxMD
+k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzXX0=
 -->
