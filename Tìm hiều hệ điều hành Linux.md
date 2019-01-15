@@ -173,13 +173,15 @@ Trên hết, môi trường Linux thực sự môi trường mở cho mọi ngư
 
 **![Ubuntu](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay1.jpg)**
 
-[Ubuntu](https://quantrimang.com/huong-dan-go-bo-phan-mem-tren-ubuntu-147348 "Hướng dẫn gỡ cài đặt phần mềm trên Ubuntu") có lẽ là bản phân phối Linux nổi tiếng nhất. Ubuntu dựa trên  [Debian](https://quantrimang.com/huong-dan-lenh-dpkg-trong-ban-phan-phoi-linux-dua-tren-debian-cho-nguoi-moi-bat-dau-156426 "Hướng dẫn dùng lệnh dpkg trên Linux Debian"), nhưng nó sở hữu kho phần mềm riêng. Phần lớn các phần mềm trong những kho này được đồng bộ hóa từ kho lưu trữ của Debian.
+Ubuntu có lẽ là bản phân phối Linux nổi tiếng nhất. Ubuntu dựa trên  Debian, nhưng nó sở hữu kho phần mềm riêng. Phần lớn các phần mềm trong những kho này được đồng bộ hóa từ kho lưu trữ của Debian.
 
 Dự án Ubuntu tập trung vào việc cung cấp cho người dùng trải nghiệm trên máy tính để bàn (và máy chủ). Ubuntu không ngại xây dựng những công nghệ tùy chỉnh của riêng mình để hiện thực hóa mục tiêu đó. Ngày trước Ubuntu được phát triển cho môi trường desktop GNOME 2, nhưng bây giờ nó sử dụng môi trường desktop Unity của riêng mình. Ubuntu thậm chí còn xây dựng máy chủ đồ họa Mir của riêng mình trong khi các bản phân phối khác chỉ đang hoạt động trên Wayland.
 
 Ubuntu là một bản phân phối hiện đại, không ngừng cải tiến nhưng vẫn giữ lại được những bản sắc riêng của mình. Ubuntu phát hành các bản cập nhật mỗi sáu tháng, đi cùng với đó là những bản cập nhật lớn, hỗ trợ lâu dài và ổn định hơn được đưa đến tay người dùng hai năm một lần. Ubuntu hiện đang nỗ lực để mở rộng ảnh hưởng của mình trên điện thoại thông minh và máy tính bảng.
+## **Linux Mint**
+**![Linux Mint](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay2.jpg)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDgwMjYyNSwtNjE0MTY1MzYyLC0xNT
+eyJoaXN0b3J5IjpbLTc1NDAyMTExOSwtNjE0MTY1MzYyLC0xNT
 U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
 ODNdfQ==
 -->
