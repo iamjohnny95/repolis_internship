@@ -6,13 +6,13 @@
 - Vào tháng 9/2003, hãng Red Hat đã quyết định tập trung vào công việc phát triển các phiên bản distro dành cho doanh nghiệp. Đồng thời, Red Hat cũng ủy quyền phiên bản cộng đồng cho Fedora Core – đây là dự án nguồn mở độc lập với Red Hat. Hiện tại, một số sản phẩm hàng đầu của Red Hat là Fedora, Red Hat Network và một số dịch vụ cập nhật phần mềm Internet
 - Bên cạnh đó, Red Hat cũng có distro hướng doanh nghiệp là bản Red Hat Enterprise Linux (RHEL). Một điểm lưu ý, Red Hat cũng đưa ra các dịch vụ tư vấn công nghệ thông tin và chương trình cấp chứng chỉ tương tự như Microsoft.
 
-- Fedora là phiên bản miễn phí dành cho người dùng, đồng thời cũng là phiên bản thử nghiệm đưa ra cộng đồng sử dụng và phản hồi, từ đó những đặc tính nổi bật của Fedora sẽ đúc kết vào phiên bản RHEL. Thông thường, cứ 6 tháng Fedora sẽ đưa ra phiên bản mới với các tính năng bảo mật mà các chuyên gia đánh giá khá tốt.
- - Fedora là distro dựa trên RPM. Fedora có thể dùng cho máy tính để bàn và máy trạm, thậm chí máy chủ; dành cho những người mới tiếp cận PMTDNM hay những người đã có nhiều kinh nghiệm. Từ đĩa CD/DVD, người dùng có thể cài đặt tất cả các ứng dụng, dịch vụ, thư viện cần thiết của Fedora và sau đó chỉ việc sử dụng chúng. Tuy nhiên, cách quản lý gói tin của Fedora gây không ít khó khăn cho người dùn
-
+- ***Fedora*** là phiên bản miễn phí dành cho người dùng, đồng thời cũng là phiên bản thử nghiệm đưa ra cộng đồng sử dụng và phản hồi, từ đó những đặc tính nổi bật của Fedora sẽ đúc kết vào phiên bản RHEL. Thông thường, cứ 6 tháng Fedora sẽ đưa ra phiên bản mới với các tính năng bảo mật mà các chuyên gia đánh giá khá tốt.
+ - Fedora là distro dựa trên RPM. Fedora có thể dùng cho máy tính để bàn và máy trạm, thậm chí máy chủ; dành cho những người mới tiếp cận PMTDNM hay những người đã có nhiều kinh nghiệm. Từ đĩa CD/DVD, người dùng có thể cài đặt tất cả các ứng dụng, dịch vụ, thư viện cần thiết của Fedora và sau đó chỉ việc sử dụng chúng. Tuy nhiên, cách quản lý gói tin của Fedora gây không ít khó khăn cho người dùng
+ - ***Debian GNU/Linux*** là hệ điều hành (HĐH) PMTD mà sử dụng nhân Linux để phát triển distro riêng của nó. Vào năm 2007, Debian hỗ trợ cho nhiều kiến trúc khác nhau như Intel x86, ARM, Motorola, PowerPC, Alpha, SPARC.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzg1NzQ1LC02MTc4NDcwODIsNDg4Mz
+eyJoaXN0b3J5IjpbMTA1MzU3NzYyLC02MTc4NDcwODIsNDg4Mz
 EyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUxNDcs
 LTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
