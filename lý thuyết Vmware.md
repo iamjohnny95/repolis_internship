@@ -148,12 +148,12 @@ Nhưng với hầu hết các hệ thống Linux, bạn sẽ không phải cài 
 ### Giao diện thay đổi được
 
 ![Giao diện của Linux thay đổi được](https://st.quantrimang.com/photos/image/092012/29/linux4.jpg)
-
+Giao diện của Windows không có quá nhiều đổi khác trong một thời gian dài. Với Windows Vista, đó là Aero. Trước đó, XP đã tạo một số thay đổi nhỏ so với Windows Classic. Nhưng Start Menu, Taskbar, System Tray, Windows Explorer, tất cả về cơ bản vẫn giống nhau. Phải cho đến Windows 8.1, Windows 10 mới thấy có sự khác biệt rõ rệt.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODcxNjc0LC0xNTU3MjIzODk2LDEwOT
-c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3
-LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNiwtMTM4NTc4MjE1NCwtMT
-E5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3
-MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LDI5OTEwMjgxMywxMT
-Y3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAwNDcxNTddfQ==
+eyJoaXN0b3J5IjpbLTEyODU2ODE0NywtMTU1NzIyMzg5NiwxMD
+k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
+NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
+ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
+NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMT
+E2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
 -->
