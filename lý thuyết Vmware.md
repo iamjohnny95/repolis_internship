@@ -93,12 +93,12 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 
 ## Nguồn gốc của Unix
 - Nhắc đến Linux thì trước tiên, ta phải quay ngược thời gian để tìm hiểu về một cái tên khác, đó là **Unix**.
-
+- Unix là một hệ điều hành vốn ra đời đã từ rất lâu, tại phòng thí nghiệm Bell Labs của AT&T. Dự án được dẫn dắt bởi **Ken Thompson** và **Dennis Ritchie**, 2 nhà khoa học máy tính nổi tiếng.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNz
-I0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNiwtMTM4NTc4MjE1
-NCwtMTE5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0NjExMywtNj
-E3ODQ3MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LDI5OTEwMjgx
-MywxMTY3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAwNDcxNTddfQ
-==
+eyJoaXN0b3J5IjpbMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Nj
+g3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2
+LC0xMzg1NzgyMTU0LC0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsOD
+g5NDQ2MTEzLC02MTc4NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIw
+NTUsMjk5MTAyODEzLDExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLT
+E0MDA0NzE1N119
 -->
