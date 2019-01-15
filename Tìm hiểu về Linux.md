@@ -205,6 +205,10 @@ Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần 
 ### 1. ls - List
 
 **ls** liệt kê nội dung (file và thư mục) trong thư mục hiện hành. Nó cũng tương tự với việc bạn mở một thư mục và xem nội dung trong đó trên giao diện người dùng.
+-   `-a`: xem cả các file và thư mục ẩn
+-   `-l`: xem thông tin chi tiết bao gồm ACL (access control list), kích cỡ, ngày tháng cập nhật, chủ sở hữu ....
+-   `-p`: thêm slash (`/`) để đánh dấu các thư mục
+-   `-R`: xem cả cây thư mục
 
 ### 2. mkdir - Make Directory
 
@@ -260,8 +264,8 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQwNDQyOCwxNTY3MDU2MjIwLC0xMj
-IzNTI5MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5
-Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLT
-IwODg3NDY2MTIsMTU4ODkzMzA2XX0=
+eyJoaXN0b3J5IjpbLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1Nj
+cwNTYyMjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIy
+Mzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLD
+k2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
 -->
