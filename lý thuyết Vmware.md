@@ -292,13 +292,14 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 7./lib: chứa các thư viện cho các chương trình trong /bin và /sbin
 - 8./media: là các điểm gắn kết system với các thiết bị bên ngoài 
 - 9./mnt: điểm  gắn kết cho phép  gắn trực tiếp filesystem
-- 10./opt: chứa các gói phần mềm từ
+- 10./opt: chứa các gói phần mềm từ các package đã cài đặt 
+- 11./tmp: chứa các 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDMxMTgwNCwtMTg4MDc3NDMzLDE0OT
+eyJoaXN0b3J5IjpbMTA3Mjk4ODg5NCwtMTg4MDc3NDMzLDE0OT
 kxNzE0NDgsMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0
 MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1MzYyLC
 0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4
