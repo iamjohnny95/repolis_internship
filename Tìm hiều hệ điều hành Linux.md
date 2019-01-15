@@ -206,36 +206,26 @@ Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần 
 
 **ls** liệt kê nội dung (file và thư mục) trong thư mục hiện hành. Nó cũng tương tự với việc bạn mở một thư mục và xem nội dung trong đó trên giao diện người dùng.
 
-![Học lập trình trực tuyến](https://techmaster.vn/fileman/Uploads/1-ls.jpg "Học lập trình trực tuyến")
 ### 2. mkdir - Make Directory
 
 **mkdir <tên thư mục mới>** tạo một thư mục mới. Nó cũng tương tự với việc bạn chọn new/create directory để tạo một thư mục mới trên giao diện người dùng.
-
-![Học lập trình trực tuyến xin việc làm](https://techmaster.vn/fileman/Uploads/2-mkdir.jpg "Học lập trình trực tuyến xin việc làm")
 
 ### 3. pwd - Print Working Directory
 
 **pwd** in ra đường dẫn đầy đủ đến thư mục hiện hành.
 
-![Học lập trình trực tuyến cấp tốc](https://techmaster.vn/fileman/Uploads/3-pwd.jpg "Học lập trình trực tuyến cấp tốc")
-
 ### 4. cd - Change Directory
 
 **cd <thư mục>** chuyển một thư mục thành thư mục hiện hành cho phiên làm việc hiện tại. Nó cũng tương tự với việc bạn mở một thư mục và thao tác với các file và thư mục bên trong đó trên giao diện người dùng.
-
-![Học lập trình trực tuyến cho trẻ em](https://techmaster.vn/fileman/Uploads/4-cd.jpg "Học lập trình trực tuyến cho trẻ em")
 
 ### 5. rmdir - Remove Directory
 
 **rmdir <thư mục>** xóa một thư mục.
 
-![Học lập trình trực tuyến cho thanh niên thất nghiệp](https://techmaster.vn/fileman/Uploads/5-rmdir.jpg "Học lập trình trực tuyến cho thanh niên thất nghiệp")
-
 ## 6. rm - Remove
 
 **rm <tên file>** xóa file. Bạn cũng có thể sử dụng  **rm -r <tên thư mục>** để xóa thư mục và toàn bộ dữ liệu trong thư mục đó.
 
-![Học lập trình trực tuyến cho phụ nữ](https://techmaster.vn/fileman/Uploads/6-rm.jpg "Học lập trình trực tuyến cho phụ nữ")
 
 ## 7. cp - Copy
 
@@ -285,7 +275,7 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 
 ![Học lập trình online cho thanh niên](https://techmaster.vn/fileman/Uploads/13-find.jpg "Học lập trình online cho thanh niên")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNj
-E0MTY1MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkz
-MDUyLDE4NTY4NzEyODNdfQ==
+eyJoaXN0b3J5IjpbMzk5MTc4MiwxNTY3MDU2MjIwLC0xMjIzNT
+I5MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4
+NSw0NDE2OTMwNTIsMTg1Njg3MTI4M119
 -->
