@@ -12,7 +12,7 @@
  - Các distro Debian GNU/Linux ra đời là do các tình nguyện viên, thường là những chuyên gia về công nghệ thông tin đóng góp. Công việc của họ là thiết lập cấu hình, biên dịch, tích hợp các phần mềm sao cho tất cả có thể tương thích với nhau. Ngoài ra, các lập trình viên còn phải có trách nhiệm duy trì hạ tầng các dịch vụ dựa trên Internet như tập tin lưu trực tuyến, hệ thống quản lý lỗi… kèm theo là các dự án về dịch thuật, quốc tế hóa một loạt công cụ đặc biệt cho Debian GNU/Linux.
  - Ngoài ra, Debian GNU/Linux còn có một “hợp đồng xã hội” (www.debian.org/social_contract.html), ở tài liệu này sẽ đề cập đến mục tiêu chính của dự án Debian GNU/Linux với chính sách gói tin và phiên bản chặt chẽ. Debian GNU/Linux có 3 dạng khác nhau: phiên bản ổn định mà người dùng được khuyến khích sử dụng, phiên bản không ổn định và phiên bản thử nghiệm dành cho những ai mong muốn có được phần mềm mới nhất.
  **## 2 .Hệ điều hành phổ biến nhất Linux:**
- - ** hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
+ ** Hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
  - Ubuntu LTS: là phiên bản hỗ trợ dài hạn. Ubuntu liên tục tạo ra các phiên bản nâng cấp về bảo mật và cập nhật sửa lỗi. Hết thời gian hỗ trợ, họ khuyên là nên nâng cấp phiên bản, đồng thời ubuntu sẽ dừng support phiên bản cũ. 
  - Cứ sau 6 tháng Ubuntu sẽ tung ra phiên bản mới cho máy chủ và để bàn. Ubuntu được thiết kế với tính năng bảo mật. Người dùng sẽ luôn nhận được cập nhật bảo mật ít nhất 9 tháng.
  - Sau 2 năm thì phiên bảo LTS sẽ được cập nhật.
@@ -28,11 +28,14 @@
  - Cải thiện khả năng tương thích, bao gồm trình điều khiển
  - Hệ điều hành mã nguồn mở
  
+ ** Hệ điều hành CentOS **:
+ 
+ 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIyNDU3NDcsLTI4NTg5MTA1NSw4OD
-k0NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1
-NSwyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMT
-QwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbMjAzMzg4OTczOSwtMTE5MjI0NTc0NywtMj
+g1ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3
+NywxOTg3NTcyMDU1LDI5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMz
+U3NDU3NTkzLC0xNDAwNDcxNTddfQ==
 -->
