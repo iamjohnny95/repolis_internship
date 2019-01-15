@@ -131,8 +131,14 @@ Sự kết hợp giữa nhân Linux, với các phần mềm của GNU đã tạ
 ![Cấu trúc file](https://st.quantrimang.com/photos/image/092012/29/linux1.jpg)  
 _Cây hệ thống file trên Linux dạng thế này_  
 Cấu trúc cơ sở của Linux khác hoàn toàn so với Windows. Nó được phát triển trên một mã gốc riêng với các nhà phát triển riêng rẽ. Bạn sẽ không tìm thấy thư mục My Documents trên Ubuntu hay Program Files trên Fedora. Cũng không có các ổ đĩa C: hay D: xuất hiện. Thay vào đó, có một cây dữ liệu và các ổ đĩa được bung vào cây đó. Tương tự, thư mục home và desktop đều là một phần trong cây dữ liệu
+### Không có Registry
+
+![Linux không có registry](https://st.quantrimang.com/photos/image/092012/29/linux2.jpg)
+Registry trong Windows là một cơ sở dữ liệu chủ cho toàn bộ các thiết lập nằm trên máy tính. Nó nắm giữ thông tin ứng dụng, mật khẩu người dùng, thông tin thiết bị…
+
+Linux không có registry. Các ứng dụng trên Linux lưu thiết lập của mình trên cơ sở chương trình dưới sự phân cấp người dùng. Với ý nghĩa này, những cấu hình của Linux ở dạng mô đun. Người dùng sẽ không tìm thấy một cơ sở dữ liệu tập trung nào cần dọn dẹp định kỳ tại đây.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTc2NjYyNCwtMTU1NzIyMzg5NiwxMD
+eyJoaXN0b3J5IjpbMTcyNjUwNzI2NCwtMTU1NzIyMzg5NiwxMD
 k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
 NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
 ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
