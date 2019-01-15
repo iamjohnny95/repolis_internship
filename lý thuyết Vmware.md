@@ -169,13 +169,22 @@ Linux có 3 loại user: Regular, Administrator (Root), Service. Trong đó:
 
 Trên hết, môi trường Linux thực sự môi trường mở cho mọi người khám phá, học hỏi và thử nghiệm ý tưởng của họ. Mỗi máy tính Linux là duy nhất, và tính duy nhất xuất phát từ việc phải cá nhân hóa các thiết lập cho phần cứng.
 ## Các bản phân  phối 
+## **Ubuntu**
 
+**![Ubuntu](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay1.jpg)**
+
+Ubuntu có lẽ là bản phân phối Linux nổi tiếng nhất. Ubuntu dựa trên  Debian, nhưng nó sở hữu kho phần mềm riêng. Phần lớn các phần mềm trong những kho này được đồng bộ hóa từ kho lưu trữ của Debian.
+
+Dự án Ubuntu tập trung vào việc cung cấp cho người dùng trải nghiệm trên máy tính để bàn (và máy chủ). Ubuntu không ngại xây dựng những công nghệ tùy chỉnh của riêng mình để hiện thực hóa mục tiêu đó. Ngày trước Ubuntu được phát triển cho môi trường desktop GNOME 2, nhưng bây giờ nó sử dụng môi trường desktop Unity của riêng mình. Ubuntu thậm chí còn xây dựng máy chủ đồ họa Mir của riêng mình trong khi các bản phân phối khác chỉ đang hoạt động trên Wayland.
+
+Ubuntu là một bản phân phối hiện đại, không ngừng cải tiến nhưng vẫn giữ lại được những bản sắc riêng của mình. Ubuntu phát hành các bản cập nhật mỗi sáu tháng, đi cùng với đó là những bản cập nhật lớn, hỗ trợ lâu dài và ổn định hơn được đưa đến tay người dùng hai năm một lần. Ubuntu hiện đang nỗ lực để mở rộng ảnh hưởng của mình trên điện thoại thông minh và máy tính bảng.
+## **Linux Mint**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTQ0NjEwLC02MTQxNjUzNjIsLTE1NT
-cyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4
-Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2LC0xMz
-g1NzgyMTU0LC0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsODg5NDQ2
-MTEzLC02MTc4NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMj
-k5MTAyODEzLDExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0
-NzE1N119
+eyJoaXN0b3J5IjpbLTE2ODMyOTAxMDAsLTYxNDE2NTM2MiwtMT
+U1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcx
+MjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLT
+EzODU3ODIxNTQsLTExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0
+NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NS
+wyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQw
+MDQ3MTU3XX0=
 -->
