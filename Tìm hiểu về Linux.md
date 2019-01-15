@@ -169,7 +169,7 @@ Linux có 3 loại user: Regular, Administrator (Root), Service. Trong đó:
 
 Trên hết, môi trường Linux thực sự môi trường mở cho mọi người khám phá, học hỏi và thử nghiệm ý tưởng của họ. Mỗi máy tính Linux là duy nhất, và tính duy nhất xuất phát từ việc phải cá nhân hóa các thiết lập cho phần cứng.
 ## Các bản phân  phối 
-## **Ubuntu**
+### **Ubuntu**
 
 **![Ubuntu](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay1.jpg)**
 
@@ -202,7 +202,8 @@ Red Hat Enterprise Linux là một bản phân phối Linux thương mại dành
 
 Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần mềm Red Hat Enterprise Linux chính thức của họ bị phân phối lại trái phép. Tuy nhiên, phần mềm cốt lõi lại là miễn phí và có mã nguồn mở, và CentOS xuất hiện. CentOS là một dự án cộng đồng lấy mã Red Hat Enterprise Linux, xóa tất cả các nhãn hiệu của Red Hat và được cung cấp cũng như phân phối miễn phí. Nói cách khác, đây là một phiên bản miễn phí của RHEL, vì vậy sẽ rất phù hợp nếu bạn muốn một nền tảng ổn định sẽ được hỗ trợ trong một thời gian dài. CentOS và Red Hat gần đây đã thông báo họ đang cộng tác với nhau, vì vậy CentOS hiện là một phần trong Red Hat.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTUwMDQwOCwtNjE0MTY1MzYyLC0xNT
-U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
-ODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
+eyJoaXN0b3J5IjpbLTEyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMT
+U1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcx
+MjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ
+==
 -->
