@@ -89,8 +89,9 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 |Cộng đồng người dùng và lập trình viên lớn| Cộng đồng người dùng và lập trình viên nhỏ hơn|
 | Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí| Trợ giúp online có thể ít hơn|
 |Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
+|Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTYwNjQyOCw5NjI3MjQ5NjcsLTIwOD
+eyJoaXN0b3J5IjpbMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwOD
 g3NDY2MTIsMTU4ODkzMzA2XX0=
 -->
