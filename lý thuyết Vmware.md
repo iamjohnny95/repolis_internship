@@ -124,11 +124,12 @@ Và Linus Torvalds xuất hiện …
 **Linux**
 
 Ngày 25 tháng 8 năm 1991, một cậu sinh viên ở Phần Lan mang tên Linus Torvalds giới thiệu một sản phẩm cá nhân, sau này trở thành Linux Kernel.
+Sự kết hợp giữa nhân Linux, với các phần mềm của GNU đã tạo ra một hệ điều hành hoàn chỉnh, hệ điều hành hoàn toàn miễn phí đầu tiên. Nó được mang tên **GNU/Linux**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM2NzkwOSwtMTU1NzIyMzg5NiwxMD
-k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
-NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
-ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
-NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMT
-E2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTIzMDc5MjE0LC0xNTU3MjIzODk2LDEwOT
+c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3
+LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNiwtMTM4NTc4MjE1NCwtMT
+E5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3
+MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LDI5OTEwMjgxMywxMT
+Y3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAwNDcxNTddfQ==
 -->
