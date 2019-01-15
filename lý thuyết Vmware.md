@@ -24,12 +24,14 @@
  - Môi trường làm việc đa dạng
  - Được hỗ trợ mạnh mẽ của cộng đồng
  - Không yêu cầu phần cứng mạnh mẽ
- - Hỗ trợ nhiều ứng dụng miễn phí  trong trung tâm
+ - Hỗ trợ nhiều ứng dụng miễn phí  trong trung tâm phần mềm
+ - Cải thiện khả năng tương thích, bao gồm trình điều khiển
+ - Hệ điều hành mã nguồn mở
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE5NDU1ODQsLTI4NTg5MTA1NSw4OD
+eyJoaXN0b3J5IjpbLTExOTIyNDU3NDcsLTI4NTg5MTA1NSw4OD
 k0NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1
 NSwyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMT
 QwMDQ3MTU3XX0=
