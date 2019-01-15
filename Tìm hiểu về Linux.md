@@ -180,11 +180,13 @@ Dự án Ubuntu tập trung vào việc cung cấp cho người dùng trải ngh
 Ubuntu là một bản phân phối hiện đại, không ngừng cải tiến nhưng vẫn giữ lại được những bản sắc riêng của mình. Ubuntu phát hành các bản cập nhật mỗi sáu tháng, đi cùng với đó là những bản cập nhật lớn, hỗ trợ lâu dài và ổn định hơn được đưa đến tay người dùng hai năm một lần. Ubuntu hiện đang nỗ lực để mở rộng ảnh hưởng của mình trên điện thoại thông minh và máy tính bảng.
 ## **Linux Mint**
 **![Linux Mint](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay2.jpg)
-Mlà một bản phân phối Linux được xây dựng trên Ubuntu. Nó sử dụng kho phần mềm của Ubuntu, vì vậy các phần mềm tương tự sẽ có sẵn và sử dụng được trên cả hai bản phân phối này. Ban đầu, Mint là một bản phân phối thay thế được yêu thích chủ yếu bởi vì nó bao gồm các codec phương tiện (media codec) và các phần mềm sở hữu độc quyền mà Ubuntu không cung cấp theo mặc định.
+Mint là một bản phân phối Linux được xây dựng trên Ubuntu. Nó sử dụng kho phần mềm của Ubuntu, vì vậy các phần mềm tương tự sẽ có sẵn và sử dụng được trên cả hai bản phân phối này. Ban đầu, Mint là một bản phân phối thay thế được yêu thích chủ yếu bởi vì nó bao gồm các codec phương tiện (media codec) và các phần mềm sở hữu độc quyền mà Ubuntu không cung cấp theo mặc định.
 
 Bản phân phối này hiện cũng có được bản sắc riêng của mình. Bạn sẽ không tìm thấy desktop Unity của Ubuntu nữa, thay vào đó, bạn sẽ có được một màn hình Cinnamon hoặc MATE truyền thống hơn. Mint có cách tiếp cận thoải mái hơn đối với việc phát hành các bản cập nhật phần mềm và sẽ không tự động cài đặt các bản cập nhật phần mềm quan trọng. Tuy nhiên đây cũng là một vấn đề gây tranh cãi, khiến một số nhà phát triển Ubuntu cho rằng nó không an toàn.
+## **Debian**
+Debian là một hệ điều hành chỉ bao gồm các phần mềm mã nguồn mở miễn phí. Dự án Debian đã hoạt động từ năm 1993, tức là khoảng 25 năm trước! Dự án này từ lúc ra đời đến nay luôn nhân được tôn trọng lớn trong cộng đồng các nhà phát triển. Đến nay, Debian vẫn đều đặn phát hành các phiên bản mới, nhưng đáng tiếc là các phiên bản mới này được Debian cập nhật chậm hơn nhiều so với các bản phân phối như Ubuntu hay Linux Mint. Điều này có thể làm cho nó ổn định và bảo thủ hơn và chứa đựng những yếu tố lý tưởng cho một số hệ thống.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTg2MzU4OSwtNjE0MTY1MzYyLC0xNT
+eyJoaXN0b3J5IjpbMTY4NjgxODY1NywtNjE0MTY1MzYyLC0xNT
 U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
 ODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
 -->
