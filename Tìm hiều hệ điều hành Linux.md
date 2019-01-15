@@ -148,8 +148,9 @@ Nhưng với hầu hết các hệ thống Linux, bạn sẽ không phải cài 
 ### Giao diện thay đổi được
 
 ![Giao diện của Linux thay đổi được](https://st.quantrimang.com/photos/image/092012/29/linux4.jpg)
-
+Giao diện của Windows không có quá nhiều đổi khác trong một thời gian dài. Với Windows Vista, đó là Aero. Trước đó, XP đã tạo một số thay đổi nhỏ so với Windows Classic. Nhưng Start Menu, Taskbar, System Tray, Windows Explorer, tất cả về cơ bản vẫn giống nhau. Phải cho đến Windows 8.1, Windows 10 mới thấy có sự khác biệt rõ rệt.
+Với Linux, giao diện hoàn toàn tách rời với hệ thống lõi. Bạn có thể đổi môi trường giao diện mà không cần lo lắng xem có phải cài lại chương trình hay không. Có nhiều giao diện như GNOME, KDE hay gần đây hơn là Unity cùng nhiều giao diện ít biết đến khác tập trung vào các khía cạnh khác nhau cho bạn lựa chọn.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODcxNjc0LC0xNTU3MjIzODk2LDEwOT
-c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODNdfQ==
+eyJoaXN0b3J5IjpbLTQwNzQ3OTM2OSwtMTU1NzIyMzg5NiwxMD
+k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzXX0=
 -->
