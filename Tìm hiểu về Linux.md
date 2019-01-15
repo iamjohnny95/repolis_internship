@@ -297,14 +297,14 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 ## Thư mục  home:
 - Trong những hệ thống UNIX, mỗi người dùng có đường dẫn sở hữu của họ. Thông thường được đặt /home.  Thư mục /home thường được mount 1 filesystem riêng biệt trên partition 
 ## Thư mục binary:
-- Thư mục /bin bao gồm các binary
+- Thư mục /bin bao gồm các binary được thực thi, thiết lập câu lệnh đã được sử dụng ở chế độ người dùng, và các câu lệnh chủ yếu 
 - 
 - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ2NDgwMzQsNDc5NjA3MDQyLDEwNz
+eyJoaXN0b3J5IjpbLTIwNjYzMDMwNjAsNDc5NjA3MDQyLDEwNz
 I5ODg4OTQsLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5MzAxNjgw
 MTAsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYyMjAsLT
 EyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3
