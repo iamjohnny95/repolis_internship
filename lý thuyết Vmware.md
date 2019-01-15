@@ -265,15 +265,32 @@ Bạn có thể dùng  **grep -i <chuỗi> <tên file>** để tìm kiếm khôn
 
 **find <thư mục> -name <tên file>** tìm kiếm file trong  **<thư mục>** theo  **<tên file>** .  
 Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm kiếm không phân biệt hoa thường.
+## 15. tar
+
+**tar -cvf <tên-file-nén.tar> <file1 hoặc file2 ...>** tạo file nén (.tar) từ các file có sẵn.
+
+**tar -tvf <tên-file-nén.tar>** xem nội dung file nén (.tar).
+
+**tar -xvf <tên-file-nén.tar>** giải nén (file .tar).
+
+## 16. gzip
+
+**gzip <tên file>** tạo file nén (.gz). Sử dụng **gzip -d <tên file>** để giải nén (file .gz).
+
+## 17. unzip
+
+**unzip <file-nén.zip>** giải nén một file nén (.zip). Sử dụng  **unzip -l <file-nén.zip>** để xem nội dung file zip mà không cần giải nén.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTE3MTQ0OCwxOTMwMTY4MDEwLC0zMj
-E1NjMzNDgsMTczNDQwNDQyOCwxNTY3MDU2MjIwLC0xMjIzNTI5
-MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NS
-w0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3
-NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTkyMjQ1Nz
-Q3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcwODIsNDg4
-MzEyNjc3XX0=
+eyJoaXN0b3J5IjpbLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5Mz
+AxNjgwMTAsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYy
+MjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5Ni
+wxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2Mjcy
+NDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNT
+QsLTExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYx
+Nzg0NzA4Ml19
 -->
