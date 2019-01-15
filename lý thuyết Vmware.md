@@ -1,6 +1,6 @@
 ##**Truy cập đường dẫn:**
-
-
+|Câu lệnh | kết quả| 
+| ------- | ------   |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA1Njk5MzYsLTE0MDA0NzE1N119
+eyJoaXN0b3J5IjpbLTg5NTQ4OTg0MSwtMTQwMDQ3MTU3XX0=
 -->
