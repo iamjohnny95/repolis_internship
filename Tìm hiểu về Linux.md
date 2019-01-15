@@ -156,8 +156,15 @@ Với Linux, giao diện hoàn toàn tách rời với hệ thống lõi. Bạn 
 Linux có được tiếng là hệ điều hành dành cho các tín đồ máy tính và điều này đạt được chủ yếu là nhờ vào sự phổ biến của giao diện dòng lệnh (terminal). Đây là một hộp đen với chữ xanh truyền thống để ta có thể sử dụng các lệnh thực thi. Nói cách khác, nó giống như Command Prompt của Windows.
 
 Nếu muốn chuyển sang dùng Linux thì bạn phải học các cấu trúc lệnh vì sẽ phải sử dụng chúng thường xuyên. Giao diện đồ họa dễ sử dụng nhưng chắc chắn không mạnh mẽ và hiệu quả bằng giao diện dòng lệnh.
+## Tài khoản và quyền user
+
+Linux có 3 loại user: Regular, Administrator (Root), Service. Trong đó:
+
+-   **Regular:**  Là tài khoản user thông thường được tạo khi cài đặt Ubuntu trên máy tính. Tất cả các file, thư mục được lưu trữ trong /home/ là thư mục chính của tài khoản này. User này không có quyền truy cập vào thưc mục của những user khác.
+-   **Root:**  Tài khoản này được tạo ra tại thời điểm cài đặt Linux. Root là một superuser, có thể truy cập vào những file bị giới hạn quyền, cài đặt phần mềm và có quyền quản trị. Bất cứ khi nào bạn muốn cài đặt phần mềm, thay đổi file hệ thống hoặc thực hiện các tác vụ cần quyền quản trị khác trên Linux thì phải đăng nhập bằng tài khoản Root. Những hoạt động như nghe nhạc, duyệt web thì có thể sử dụng tài khoản bình thường cũng được.
+-   **Service:**  Hẳn bạn cũng biết Linux là bá chủ trong hệ điều hành máy chủ. Các dịch vụ như Apache, Squid, email,... đều có những tài khoản dịch vụ cá nhân riêng. Những tài khoản này giúp tăng tính bảo mật cho máy tính. Linux cũng cho phép hoặc từ chối truy cập vào những nguồn lực khác nhau tùy thuộc vào dịch vụ.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU5NzgwNDgsLTE1NTcyMjM4OTYsMT
-A5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5
-NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2XX0=
+eyJoaXN0b3J5IjpbLTk4MzE3OTE5MCwtMTU1NzIyMzg5NiwxMD
+k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
+NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
 -->
