@@ -248,24 +248,25 @@ Bạn cũng có thể sử dụng **cp -r <thư mục nguồn> <thư mục đíc
 **tail <tên file>** đọc và in ra nội dung 10 dòng cuối cùng của file (mặc định).  
 Bạn có thể sử dụng  **tail -n N <tên file>** để chỉ định in  **N** dòng ra màn hình.
 
-## 11. less – print LESS
+## 12. less – print LESS
 
 **less <tên file>** in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng  **Ctrl+F**  để chuyển trang tiếp theo và  **Ctrl+B**  để chuyển về trang trước
 
-## 12. grep
+## 13. grep
 
 **grep <chuỗi> <tên file>** tìm kiếm nội dung của file theo chuỗi cung cấp.  
 Bạn có thể dùng  **grep -i <chuỗi> <tên file>** để tìm kiếm không phân biệt hoa thường hoặc  **grep -r <chuỗi> <tên thư mục>** để tìm kiếm trong toàn thư mục
 
-## 13. find
+## 14. find
 
 **find <thư mục> -name <tên file>** tìm kiếm file trong  **<thư mục>** theo  **<tên file>** .  
 Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm kiếm không phân biệt hoa thường.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1Nj
-cwNTYyMjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIy
-Mzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLD
-k2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbLTU3NTYxNDQ4NSwtMzIxNTYzMzQ4LDE3Mz
+Q0MDQ0MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1
+MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLD
+E4NTY4NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5
+MzMwNl19
 -->
