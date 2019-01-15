@@ -207,12 +207,89 @@ Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần 
 **ls** liệt kê nội dung (file và thư mục) trong thư mục hiện hành. Nó cũng tương tự với việc bạn mở một thư mục và xem nội dung trong đó trên giao diện người dùng.
 
 ![Học lập trình trực tuyến](https://techmaster.vn/fileman/Uploads/1-ls.jpg "Học lập trình trực tuyến")
+### 2. mkdir - Make Directory
+
+**mkdir <tên thư mục mới>** tạo một thư mục mới. Nó cũng tương tự với việc bạn chọn new/create directory để tạo một thư mục mới trên giao diện người dùng.
+
+![Học lập trình trực tuyến xin việc làm](https://techmaster.vn/fileman/Uploads/2-mkdir.jpg "Học lập trình trực tuyến xin việc làm")
+
+### 3. pwd - Print Working Directory
+
+**pwd** in ra đường dẫn đầy đủ đến thư mục hiện hành.
+
+![Học lập trình trực tuyến cấp tốc](https://techmaster.vn/fileman/Uploads/3-pwd.jpg "Học lập trình trực tuyến cấp tốc")
+
+### 4. cd - Change Directory
+
+**cd <thư mục>** chuyển một thư mục thành thư mục hiện hành cho phiên làm việc hiện tại. Nó cũng tương tự với việc bạn mở một thư mục và thao tác với các file và thư mục bên trong đó trên giao diện người dùng.
+
+![Học lập trình trực tuyến cho trẻ em](https://techmaster.vn/fileman/Uploads/4-cd.jpg "Học lập trình trực tuyến cho trẻ em")
+
+### 5. rmdir - Remove Directory
+
+**rmdir <thư mục>** xóa một thư mục.
+
+![Học lập trình trực tuyến cho thanh niên thất nghiệp](https://techmaster.vn/fileman/Uploads/5-rmdir.jpg "Học lập trình trực tuyến cho thanh niên thất nghiệp")
+
+## 6. rm - Remove
+
+**rm <tên file>** xóa file. Bạn cũng có thể sử dụng  **rm -r <tên thư mục>** để xóa thư mục và toàn bộ dữ liệu trong thư mục đó.
+
+![Học lập trình trực tuyến cho phụ nữ](https://techmaster.vn/fileman/Uploads/6-rm.jpg "Học lập trình trực tuyến cho phụ nữ")
+
+## 7. cp - Copy
+
+**cp <file nguồn> <file đích>** sao chép file từ vị trí nguồn đến vị trí đích.  
+Bạn cũng có thể sử dụng **cp -r <thư mục nguồn> <thư mục đích>** để sao chép thư mục và toàn bộ dữ liệu bên trong.
+
+![Học lập trình trực tuyến cho người lớn tuổi](https://techmaster.vn/fileman/Uploads/7-cp.jpg "Học lập trình trực tuyến cho người lớn tuổi")
+
+## 8. mv - Move
+
+**mv <nguồn> <đích>** di chuyển một file hoặc thư mục từ vị trí này sang vị trí khác. Lệnh này cũng dùng để đổi tên file hoặc thư mục nếu như  **<nguồn>** và  **<đích>** là cùng một thư mục.
+
+![Học lập trình trực tuyến cho người mất gốc](https://techmaster.vn/fileman/Uploads/8-mv.jpg "Học lập trình trực tuyến cho người mất gốc")
+
+
+
+## 9. cat – concatenate and print files
+
+**cat <tên file>** đọc và in ra nội dung của file ra màn hình.
+
+![Học lập trình trực tuyến cho mọi đối tượng](https://techmaster.vn/fileman/Uploads/9-cat.jpg "Học lập trình trực tuyến cho mọi đối tượng")
+
+## 10. tail – print TAIL
+
+**tail <tên file>** đọc và in ra nội dung 10 dòng cuối cùng của file (mặc định).  
+Bạn có thể sử dụng  **tail -n N <tên file>** để chỉ định in  **N** dòng ra màn hình.
+
+![Học lập trình online](https://techmaster.vn/fileman/Uploads/10-tail.jpg "Học lập trình online")
+
+## 11. less – print LESS
+
+**less <tên file>** in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng  **Ctrl+F**  để chuyển trang tiếp theo và  **Ctrl+B**  để chuyển về trang trước.
+
+![Học lập trình online cấp tốc](https://techmaster.vn/fileman/Uploads/11-less.jpg "Học lập trình online cấp tốc")
+
+## 12. grep
+
+**grep <chuỗi> <tên file>** tìm kiếm nội dung của file theo chuỗi cung cấp.  
+Bạn có thể dùng  **grep -i <chuỗi> <tên file>** để tìm kiếm không phân biệt hoa thường hoặc  **grep -r <chuỗi> <tên thư mục>** để tìm kiếm trong toàn thư mục
+
+![Học lập trình online chất lượng nhất](https://techmaster.vn/fileman/Uploads/12-grep.jpg "Học lập trình online chất lượng nhất")
+
+## 13. find
+
+**find <thư mục> -name <tên file>** tìm kiếm file trong  **<thư mục>** theo  **<tên file>** .  
+Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm kiếm không phân biệt hoa thường.
+
+![Học lập trình online cho thanh niên](https://techmaster.vn/fileman/Uploads/13-find.jpg "Học lập trình online cho thanh niên")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MTIxNDU5LC0xMjIzNTI5MjAzLC02MT
-QxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMw
-NTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMT
-U4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTkyMjQ1NzQ3LC0yODU4
-OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcwODIsNDg4MzEyNjc3LD
-E5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUxNDcsLTEzNTc0
-NTc1OTNdfQ==
+eyJoaXN0b3J5IjpbMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNj
+E0MTY1MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkz
+MDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLD
+E1ODg5MzMwNiwtMTM4NTc4MjE1NCwtMTE5MjI0NTc0NywtMjg1
+ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3Ny
+wxOTg3NTcyMDU1LDI5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMzU3
+NDU3NTkzXX0=
 -->
