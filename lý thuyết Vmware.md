@@ -13,12 +13,13 @@
  - Ngoài ra, Debian GNU/Linux còn có một “hợp đồng xã hội” (www.debian.org/social_contract.html), ở tài liệu này sẽ đề cập đến mục tiêu chính của dự án Debian GNU/Linux với chính sách gói tin và phiên bản chặt chẽ. Debian GNU/Linux có 3 dạng khác nhau: phiên bản ổn định mà người dùng được khuyến khích sử dụng, phiên bản không ổn định và phiên bản thử nghiệm dành cho những ai mong muốn có được phần mềm mới nhất.
  **## 2 .Hệ điều hành phổ biến nhất Linux:**
  - ** hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
- - Ubuntu LTS: là phiên bản hỗ trợ dài hạn  
+ - Ubuntu LTS: là phiên bản hỗ trợ dài hạn. Ubuntu liên tục tạo ra các phiên bản nâng cấp về bảo mật và cập nhật sửa lo 
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNz
-g0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMs
-MTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTE2MTE3NjEzOTAsLTI4NTg5MTA1NSw4OD
+k0NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1
+NSwyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMT
+QwMDQ3MTU3XX0=
 -->
