@@ -12,12 +12,12 @@
  - Các distro Debian GNU/Linux ra đời là do các tình nguyện viên, thường là những chuyên gia về công nghệ thông tin đóng góp. Công việc của họ là thiết lập cấu hình, biên dịch, tích hợp các phần mềm sao cho tất cả có thể tương thích với nhau. Ngoài ra, các lập trình viên còn phải có trách nhiệm duy trì hạ tầng các dịch vụ dựa trên Internet như tập tin lưu trực tuyến, hệ thống quản lý lỗi… kèm theo là các dự án về dịch thuật, quốc tế hóa một loạt công cụ đặc biệt cho Debian GNU/Linux.
  - Ngoài ra, Debian GNU/Linux còn có một “hợp đồng xã hội” (www.debian.org/social_contract.html), ở tài liệu này sẽ đề cập đến mục tiêu chính của dự án Debian GNU/Linux với chính sách gói tin và phiên bản chặt chẽ. Debian GNU/Linux có 3 dạng khác nhau: phiên bản ổn định mà người dùng được khuyến khích sử dụng, phiên bản không ổn định và phiên bản thử nghiệm dành cho những ai mong muốn có được phần mềm mới nhất.
  **## 2 .Hệ điều hành phổ biến nhất Linux:**
- - ** hệ điều hành ubuntu: **
+ - ** hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack c 
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMDM2NDQsODg5NDQ2MTEzLC02MTc4ND
-cwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDEx
-Njc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
+eyJoaXN0b3J5IjpbLTc5MDc1ODM3Niw4ODk0NDYxMTMsLTYxNz
+g0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMs
+MTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
 -->
