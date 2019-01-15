@@ -28,13 +28,14 @@
  - Cải thiện khả năng tương thích, bao gồm trình điều khiển
  - Hệ điều hành mã nguồn mở
  
- ** Hệ điều hành CentOS **: hệ điều hành chính thức ra đời năm 2004
+ ** Hệ điều hành CentOS **: hệ điều hành chính thức ra đời năm 2004.
+ - Các phiên bản phát hành của 
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzk2NzIwMCwtMTM4NTc4MjE1NCwtMT
-E5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3
-MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LDI5OTEwMjgxMywxMT
-Y3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAwNDcxNTddfQ==
+eyJoaXN0b3J5IjpbODMwMTkxMjcyLC0xMzg1NzgyMTU0LC0xMT
+kyMjQ1NzQ3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcw
+ODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNj
+c1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
