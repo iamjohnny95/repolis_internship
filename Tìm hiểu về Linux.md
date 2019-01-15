@@ -80,40 +80,9 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 -   **Nếu bạn là người mới bắt đầu:**  hãy chọn Ubuntu vì cộng đồng người dùng lớn, nhiều tài liệu miễn phí và cập nhật thường xuyên. Giao diện Ubuntu desktop cũng dễ dùng hơn. CentOS cũng có thể được chọn nếu bạn không ngại tìm tòi và vượt qua vài trở ngại ban đầu.
 -   **Nếu bạn là một người dùng cho việc kinh doanh:**  CentOS là lựa chọn lý tưởng, nếu bạn chạy đang vận hành công việc kinh doanh, hoặc nếu bạn là quan trọng việc bảo mật. Ubuntu có lợi thế là cập nhật nhanh nhưng có nhiều trường hợp thực tế là bạn phải dùng bản cũ vì bản mới gặp lỗi do chưa được kiểm tra kỹ. Hơn nữa, CentOS cũng có hỗ trợ cPanel, một điều quan trọng mà Ubuntu thiếu.
 
-## CentOS vs Ubuntu – Bảng so sánh  
+** Bảng so sánh giữa Ubuntu và CentOS: **
 
-**Ubuntu**
-
-**CentOS**
-
-Dựa trên Debian
-
-Dựa trên RHEL
-
-Cập nhật thường xuyên
-
-Cập nhật quan trọng
-
-Không hỗ trợ cPanel (có phương pháp thế)
-
-Hỗ trợ cPanel/WHM
-
-Cộng đồng người dùng và lập trình viên lớn
-
-Cộng đồng người dùng và lập trình viên nhỏ hơn
-
-Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí
-
-Trợ giúp online có thể ít hơn
-
-Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ
-
-Khó học cho người mới, và không có desktop phổ biên
-
-Sử dụng  **apt-get**  package manager để cài đặt .deb packages
-
-Dùng lệnh lệnh  **yum**  package manager để cài .rpm packages
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIwMTkyMDgsOTYyNzI0OTY3LC0yMD
-g4NzQ2NjEyLDE1ODg5MzMwNl19
+eyJoaXN0b3J5IjpbMjEwMDUzNTQ5MSw5NjI3MjQ5NjcsLTIwOD
+g3NDY2MTIsMTU4ODkzMzA2XX0=
 -->
