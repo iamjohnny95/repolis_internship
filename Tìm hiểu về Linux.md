@@ -168,9 +168,10 @@ Linux có 3 loại user: Regular, Administrator (Root), Service. Trong đó:
 ### Tính tự do
 
 Trên hết, môi trường Linux thực sự môi trường mở cho mọi người khám phá, học hỏi và thử nghiệm ý tưởng của họ. Mỗi máy tính Linux là duy nhất, và tính duy nhất xuất phát từ việc phải cá nhân hóa các thiết lập cho phần cứng.
+## Các bản phân  phối 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMD
-k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
-NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbLTQyMTQ0NjEwLC02MTQxNjUzNjIsLTE1NT
+cyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4
+Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2XX0=
 -->
