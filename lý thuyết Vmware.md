@@ -247,6 +247,10 @@ Bạn cũng có thể sử dụng **cp -r <thư mục nguồn> <thư mục đíc
 
 **tail <tên file>** đọc và in ra nội dung 10 dòng cuối cùng của file (mặc định).  
 Bạn có thể sử dụng  **tail -n N <tên file>** để chỉ định in  **N** dòng ra màn hình.
+## 11. head – print HEAD
+
+**head <tên file>** đọc và in ra nội dung 10 dòng đầu tiên của file (mặc định).  
+Bạn có thể sử dụng  **head -n N <tên file>** để chỉ định in  **N** dòng ra màn hình.
 
 ## 12. less – print LESS
 
@@ -264,7 +268,7 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTYxNDQ4NSwtMzIxNTYzMzQ4LDE3Mz
+eyJoaXN0b3J5IjpbMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3Mz
 Q0MDQ0MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1
 MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLD
 E4NTY4NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5
