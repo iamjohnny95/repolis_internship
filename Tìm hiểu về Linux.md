@@ -91,9 +91,10 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 |Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
 |Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
-## Nguo
+## Nguồn gốc của Unix
+- Nhắc đến Linux thì trước tiên, ta phải quay ngược thời gian để tìm hiểu về một cái tên khác, đó là **Unix**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTQzMDI5MCwxODU2ODcxMjgzLDk2Mj
-cyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNz
+I0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
 -->
