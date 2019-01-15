@@ -96,7 +96,7 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 - Unix là một hệ điều hành vốn ra đời đã từ rất lâu, tại phòng thí nghiệm Bell Labs của AT&T. Dự án được dẫn dắt bởi **Ken Thompson** và **Dennis Ritchie**, 2 nhà khoa học máy tính nổi tiếng.
 - Công việc phát triển Unix chính thức được bắt đầu vào mùa hè năm 1969, và phiên bản đầu tiên của Unix được ra đời vào tháng 3 năm 1971, tiếp đó là phiên bản thứ 2 ra đời năm 1972.
 
-Ngoài lề một chút, nếu bạn gõ lệnh date trên một máy Linux, hay trên MacOS … bạn sẽ nhận được một con số gọi là Unix Timestamp. Con số này là số giây tính từ thời điểm 00:00:00 ngày 1 tháng 1 năm 1970. Còn tại sao lại là thời điểm ngày 1 tháng 1 năm 1970 thì chắc giờ bạn cũng có câu trả lời rồi nhỉ. Đó chính là thời thời điểm mà Unix đang nằm trong quá trình phát triển đấy  ![😀](https://s.w.org/images/core/emoji/2.4/svg/1f600.svg) 
+Ngoài lề một chút, nếu bạn gõ lệnh date trên một máy Linux, hay trên MacOS … bạn sẽ nhận được một con số gọi là Unix Timestamp. Con số này là số giây tính từ thời điểm 00:00:00 ngày 1 tháng 1 năm 1970. Còn tại sao lại là thời điểm ngày 1 tháng 1 năm 1970 thì chắc giờ bạn cũng có câu trả lời rồi nhỉ. Đó chính là thời thời điểm mà Unix đang nằm trong quá trình phát triển đấy   
 
 Ngoài lề một chút nữa, 2 thánh Ken Thompson và Dennis Ritchie chính là 2 người đã tạo ra B, ngôn ngữ lập trình vốn được support ở Unix những phiên bản đầu. Sau đó, vào năm 1972, Ritchie đã viết lại ngôn ngữ B, cải thiện nó tốt hơn,  **để trở thành ngôn ngữ lập C**, ngôn ngữ lập trình còn rất phổ biến cho đến tận ngày nay. Hầu hết các components của Unix sau này đều được viết bằng C.
 
@@ -138,10 +138,10 @@ Registry trong Windows là một cơ sở dữ liệu chủ cho toàn bộ các 
 
 Linux không có registry. Các ứng dụng trên Linux lưu thiết lập của mình trên cơ sở chương trình dưới sự phân cấp người dùng. Với ý nghĩa này, những cấu hình của Linux ở dạng mô đun. Người dùng sẽ không tìm thấy một cơ sở dữ liệu tập trung nào cần dọn dẹp định kỳ tại đây.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjUwNzI2NCwtMTU1NzIyMzg5NiwxMD
-k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
-NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
-ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
-NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMT
-E2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTE5NTA3MjkzOTgsLTE1NTcyMjM4OTYsMT
+A5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5
+NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC
+0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4
+NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLD
+ExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
