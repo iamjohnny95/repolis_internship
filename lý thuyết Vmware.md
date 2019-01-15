@@ -112,11 +112,12 @@ Phiên bản thương mại, close source nổi tiếng, thành công nhất, c�
 ### **GNU**
 
 Trong dòng chảy của sự phát triển của Unix, năm 1983 đã diễn ra một sự kiện quan trọng, là tiền đề cho những biến động lớn sau này.
+Tháng 9 năm 1983, **Richard Stallman** thông báo về sự ra đời của dự án **GNU** (GNU là viết tắt của từ **GNU’s not Unix**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NSw0ND
-E2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2
-MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTkyMjQ1NzQ3LC
-0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcwODIsNDg4MzEy
-Njc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUxNDcsLT
-EzNTc0NTc1OTMsLTE0MDA0NzE1N119
+eyJoaXN0b3J5IjpbMTEzMjg2MjcyOCwtMTU1NzIyMzg5NiwxMD
+k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
+NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
+ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
+NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMT
+E2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
 -->
