@@ -137,11 +137,23 @@ Cấu trúc cơ sở của Linux khác hoàn toàn so với Windows. Nó đượ
 Registry trong Windows là một cơ sở dữ liệu chủ cho toàn bộ các thiết lập nằm trên máy tính. Nó nắm giữ thông tin ứng dụng, mật khẩu người dùng, thông tin thiết bị…
 
 Linux không có registry. Các ứng dụng trên Linux lưu thiết lập của mình trên cơ sở chương trình dưới sự phân cấp người dùng. Với ý nghĩa này, những cấu hình của Linux ở dạng mô đun. Người dùng sẽ không tìm thấy một cơ sở dữ liệu tập trung nào cần dọn dẹp định kỳ tại đây.
+### Trình quản lý gói
+
+![Trình quản lý gói trên Linux](https://st.quantrimang.com/photos/image/092012/29/linux3.jpg)
+Trên Windows người dùng sẽ phải sử dụng các gói cài đặt. Đây là những file *.exe của chương trình muốn cài, được tải về thông qua các website. Và khi cần gỡ, ta sẽ phải vào Control Panel.
+
+Nhưng với hầu hết các hệ thống Linux, bạn sẽ không phải cài đặt chương trình theo cách này nữa. Thay vào đó, hệ thống có một chương trình quản lý gói (package manager) giống như một trung tâm duyệt web, cài đặt hay gỡ bỏ gói chương trình. Thay vì truy cập website Firefox để tải Firefox, bạn có thể chỉ cần tra trong các kho lưu dữ liệu của trình quản lý gói và tải về trực tiếp ứng dụng từ đây.
+
+Đây là một trong những ưu điểm của Linux so với Windows.
+### Giao diện thay đổi được
+
+![Giao diện của Linux thay đổi được](https://st.quantrimang.com/photos/image/092012/29/linux4.jpg)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA3MjkzOTgsLTE1NTcyMjM4OTYsMT
-A5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5
-NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC
-0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4
-NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLD
-ExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
+eyJoaXN0b3J5IjpbLTM2ODcxNjc0LC0xNTU3MjIzODk2LDEwOT
+c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3
+LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNiwtMTM4NTc4MjE1NCwtMT
+E5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0NjExMywtNjE3ODQ3
+MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LDI5OTEwMjgxMywxMT
+Y3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAwNDcxNTddfQ==
 -->
