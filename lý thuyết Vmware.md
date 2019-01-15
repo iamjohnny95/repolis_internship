@@ -94,11 +94,29 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 ## Nguồn gốc của Unix
 - Nhắc đến Linux thì trước tiên, ta phải quay ngược thời gian để tìm hiểu về một cái tên khác, đó là **Unix**.
 - Unix là một hệ điều hành vốn ra đời đã từ rất lâu, tại phòng thí nghiệm Bell Labs của AT&T. Dự án được dẫn dắt bởi **Ken Thompson** và **Dennis Ritchie**, 2 nhà khoa học máy tính nổi tiếng.
+- Công việc phát triển Unix chính thức được bắt đầu vào mùa hè năm 1969, và phiên bản đầu tiên của Unix được ra đời vào tháng 3 năm 1971, tiếp đó là phiên bản thứ 2 ra đời năm 1972.
+
+Ngoài lề một chút, nếu bạn gõ lệnh date trên một máy Linux, hay trên MacOS … bạn sẽ nhận được một con số gọi là Unix Timestamp. Con số này là số giây tính từ thời điểm 00:00:00 ngày 1 tháng 1 năm 1970. Còn tại sao lại là thời điểm ngày 1 tháng 1 năm 1970 thì chắc giờ bạn cũng có câu trả lời rồi nhỉ. Đó chính là thời thời điểm mà Unix đang nằm trong quá trình phát triển đấy  ![😀](https://s.w.org/images/core/emoji/2.4/svg/1f600.svg) 
+
+Ngoài lề một chút nữa, 2 thánh Ken Thompson và Dennis Ritchie chính là 2 người đã tạo ra B, ngôn ngữ lập trình vốn được support ở Unix những phiên bản đầu. Sau đó, vào năm 1972, Ritchie đã viết lại ngôn ngữ B, cải thiện nó tốt hơn,  **để trở thành ngôn ngữ lập C**, ngôn ngữ lập trình còn rất phổ biến cho đến tận ngày nay. Hầu hết các components của Unix sau này đều được viết bằng C.
+
+Những năm sau của thập niên 70, AT&T chia sẻ Unix cho những tổ chức giáo dục, hay tổ chức thương mại bên ngoài, từ đó dẫn đến sự ra đời của nhiều phiên bản Unix khác nhau. Nổi bật nhất trong số đó là phiên bản giáo dục được xây dựng bởi Computer Systems Research Group thuộc  **đại học California, Berkeley**. Phiên bản này được biết đến rộng rãi với cái tên  **Berkeley Software Distribution**, hay  **BSD**.
+
+Ban đầu, BSD được xây dựng dựa trên codebase cũng như design của Unix, tuy nhiên càng về sau, các phiên bản của Unix và BSD càng có những điểm đặc trưng, khác biêt, dẫn đến việc xảy ra những “cuộc chiến” để trở thành “tiêu chuẩn” giữa phiên bản Unix BSD và phiên bản Unix của AT&T mang tên mã System V. Kết quả là phần thắng thuộc về System V. Các phiên bản BSD sau đó đã xích gần lại System V hơn với việc học tập và đưa vào những tiêu chuẩn chung đã được công nhận.
+
+Nhánh BSD đi đến hồi kết của quá trình phát triển lịch sử của nó, với sự ra đời và của các open source project như:  **FreeBSD**,  **NetBSD**  và  **OpenBSD**. Phiên bản cuối cùng của BSD được giới thiệu năm 1995. Trong khi đó, phiên bản cuối cùng của Unix được phát triển bởi Bell Laps, phiên bản Unix 10, được ra mắt vào năm 1989.
+
+Mặc dù phiên bản chính thức của Unix, BSD đã dừng phát triển từ lâu, thế nhưng những di sản mà chúng để lại là rất lớn cho đến ngày hôm nay. Rất nhiều hệ điều hành, từ close source cho đến open source đựa dựa trên 2 nhánh này.
+
+Phiên bản thương mại, close source nổi tiếng, thành công nhất, có lẽ chính là MacOS đình đám của Apple. MacOS cũng như các hệ điều hành khác của Apple hiện nay là iOS, watchOS, và tvOS đều được dựa trên nền tảng của BSD. Và MacOS cũng là một trong số ít các hệ điều hành được coi là  **Unix-like**, khi có được chứng nhận  **Single UNIX Specification**. Chúng ta sẽ còn nói rõ hơn về khái niệm Unix-like ở phần cuối của bài viết này.
+### **GNU**
+
+Trong dòng chảy của sự phát triển của Unix, năm 1983 đã diễn ra một sự kiện quan trọng, là tiền đề cho những biến động lớn sau này.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Nj
-g3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2
-LC0xMzg1NzgyMTU0LC0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsOD
-g5NDQ2MTEzLC02MTc4NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIw
-NTUsMjk5MTAyODEzLDExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLT
-E0MDA0NzE1N119
+eyJoaXN0b3J5IjpbLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NSw0ND
+E2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2
+MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTkyMjQ1NzQ3LC
+0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcwODIsNDg4MzEy
+Njc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUxNDcsLT
+EzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
