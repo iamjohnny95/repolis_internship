@@ -149,11 +149,18 @@ Nhưng với hầu hết các hệ thống Linux, bạn sẽ không phải cài 
 
 ![Giao diện của Linux thay đổi được](https://st.quantrimang.com/photos/image/092012/29/linux4.jpg)
 Giao diện của Windows không có quá nhiều đổi khác trong một thời gian dài. Với Windows Vista, đó là Aero. Trước đó, XP đã tạo một số thay đổi nhỏ so với Windows Classic. Nhưng Start Menu, Taskbar, System Tray, Windows Explorer, tất cả về cơ bản vẫn giống nhau. Phải cho đến Windows 8.1, Windows 10 mới thấy có sự khác biệt rõ rệt.
+Với Linux, giao diện hoàn toàn tách rời với hệ thống lõi. Bạn có thể đổi môi trường giao diện mà không cần lo lắng xem có phải cài lại chương trình hay không. Có nhiều giao diện như GNOME, KDE hay gần đây hơn là Unity cùng nhiều giao diện ít biết đến khác tập trung vào các khía cạnh khác nhau cho bạn lựa chọn.
+### Lệnh đầu cuối
+
+![Giao diện terminal](https://st.quantrimang.com/photos/image/092012/29/linux5.jpg)
+Linux có được tiếng là hệ điều hành dành cho các tín đồ máy tính và điều này đạt được chủ yếu là nhờ vào sự phổ biến của giao diện dòng lệnh (terminal). Đây là một hộp đen với chữ xanh truyền thống để ta có thể sử dụng các lệnh thực thi. Nói cách khác, nó giống như Command Prompt của Windows.
+
+Nếu muốn chuyển sang dùng Linux thì bạn phải học các cấu trúc lệnh vì sẽ phải sử dụng chúng thường xuyên. Giao diện đồ họa dễ sử dụng nhưng chắc chắn không mạnh mẽ và hiệu quả bằng giao diện dòng lệnh.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU2ODE0NywtMTU1NzIyMzg5NiwxMD
-k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
-NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLT
-ExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0
-NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMT
-E2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTE5OTU5NzgwNDgsLTE1NTcyMjM4OTYsMT
+A5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5
+NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC
+0xMTkyMjQ1NzQ3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4
+NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLD
+ExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
