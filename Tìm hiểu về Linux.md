@@ -281,14 +281,17 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 
 **unzip <file-nén.zip>** giải nén một file nén (.zip). Sử dụng  **unzip -l <file-nén.zip>** để xem nội dung file zip mà không cần giải nén.
 
+## Cấu trúc phân lớp 
+- Trên nhiều  hệ điều hành, bao gồm  cả linux 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5Mz
-AxNjgwMTAsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYy
-MjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5Ni
-wxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2Mjcy
-NDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbLTI2NDY5ODkxMCwtMTg4MDc3NDMzLDE0OT
+kxNzE0NDgsMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0
+MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1MzYyLC
+0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4
+NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl
+19
 -->
