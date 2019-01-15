@@ -226,57 +226,41 @@ Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần 
 
 **rm <tên file>** xóa file. Bạn cũng có thể sử dụng  **rm -r <tên thư mục>** để xóa thư mục và toàn bộ dữ liệu trong thư mục đó.
 
-![Học lập trình trực tuyến cho phụ nữ](https://techmaster.vn/fileman/Uploads/6-rm.jpg "Học lập trình trực tuyến cho phụ nữ")
-
 ## 7. cp - Copy
 
 **cp <file nguồn> <file đích>** sao chép file từ vị trí nguồn đến vị trí đích.  
 Bạn cũng có thể sử dụng **cp -r <thư mục nguồn> <thư mục đích>** để sao chép thư mục và toàn bộ dữ liệu bên trong.
 
-![Học lập trình trực tuyến cho người lớn tuổi](https://techmaster.vn/fileman/Uploads/7-cp.jpg "Học lập trình trực tuyến cho người lớn tuổi")
-
 ## 8. mv - Move
 
 **mv <nguồn> <đích>** di chuyển một file hoặc thư mục từ vị trí này sang vị trí khác. Lệnh này cũng dùng để đổi tên file hoặc thư mục nếu như  **<nguồn>** và  **<đích>** là cùng một thư mục.
 
-![Học lập trình trực tuyến cho người mất gốc](https://techmaster.vn/fileman/Uploads/8-mv.jpg "Học lập trình trực tuyến cho người mất gốc")
-
-
-
 ## 9. cat – concatenate and print files
 
 **cat <tên file>** đọc và in ra nội dung của file ra màn hình.
-
-![Học lập trình trực tuyến cho mọi đối tượng](https://techmaster.vn/fileman/Uploads/9-cat.jpg "Học lập trình trực tuyến cho mọi đối tượng")
 
 ## 10. tail – print TAIL
 
 **tail <tên file>** đọc và in ra nội dung 10 dòng cuối cùng của file (mặc định).  
 Bạn có thể sử dụng  **tail -n N <tên file>** để chỉ định in  **N** dòng ra màn hình.
 
-![Học lập trình online](https://techmaster.vn/fileman/Uploads/10-tail.jpg "Học lập trình online")
-
 ## 11. less – print LESS
 
-**less <tên file>** in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng  **Ctrl+F**  để chuyển trang tiếp theo và  **Ctrl+B**  để chuyển về trang trước.
-
-![Học lập trình online cấp tốc](https://techmaster.vn/fileman/Uploads/11-less.jpg "Học lập trình online cấp tốc")
+**less <tên file>** in ra nội dung của một file theo từng trang trong trường hợp nội dung của file quá lớn và phải đọc theo trang. Bạn có thể dùng  **Ctrl+F**  để chuyển trang tiếp theo và  **Ctrl+B**  để chuyển về trang trước
 
 ## 12. grep
 
 **grep <chuỗi> <tên file>** tìm kiếm nội dung của file theo chuỗi cung cấp.  
 Bạn có thể dùng  **grep -i <chuỗi> <tên file>** để tìm kiếm không phân biệt hoa thường hoặc  **grep -r <chuỗi> <tên thư mục>** để tìm kiếm trong toàn thư mục
 
-![Học lập trình online chất lượng nhất](https://techmaster.vn/fileman/Uploads/12-grep.jpg "Học lập trình online chất lượng nhất")
-
 ## 13. find
 
 **find <thư mục> -name <tên file>** tìm kiếm file trong  **<thư mục>** theo  **<tên file>** .  
 Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm kiếm không phân biệt hoa thường.
 
-![Học lập trình online cho thanh niên](https://techmaster.vn/fileman/Uploads/13-find.jpg "Học lập trình online cho thanh niên")
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDc1ODU3NywxNTY3MDU2MjIwLC0xMj
+eyJoaXN0b3J5IjpbMTczNDQwNDQyOCwxNTY3MDU2MjIwLC0xMj
 IzNTI5MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5
 Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLT
 IwODg3NDY2MTIsMTU4ODkzMzA2XX0=
