@@ -295,15 +295,15 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 10./opt: chứa các gói phần mềm từ các package đã cài đặt 
 - 11./tmp: chứa các file tạm thời, của các package đang chạy, sẽ mất đi khi root
 ## Đường dẫn home:
-- Trong những hệ thống UNIX, mỗi người dùng có đường dẫn sở hữu của họ. Thông thường được đặt /home. Đường dẫn /home trên hệ thống linux hiện đại 
+- Trong những hệ thống UNIX, mỗi người dùng có đường dẫn sở hữu của họ. Thông thường được đặt /home. Đường dẫn /home trên hệ thống linux mới không hơn đường dẫn home của người dùng root. Đường dẫn /home thường được mount 1 filesys
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQ3NTcyODMsNDc5NjA3MDQyLDEwNz
-I5ODg4OTQsLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5MzAxNjgw
-MTAsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYyMjAsLT
-EyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3
-OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2Ny
-wtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbLTQ2NTczMjkwNCw0Nzk2MDcwNDIsMTA3Mj
+k4ODg5NCwtMTg4MDc3NDMzLDE0OTkxNzE0NDgsMTkzMDE2ODAx
+MCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0MjgsMTU2NzA1NjIyMCwtMT
+IyMzUyOTIwMywtNjE0MTY1MzYyLC0xNTU3MjIzODk2LDEwOTc5
+OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3LC
+0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
 -->
