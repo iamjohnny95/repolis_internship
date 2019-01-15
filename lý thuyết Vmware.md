@@ -1,3 +1,4 @@
+# Basic Command
 ##**Truy cập đường dẫn:**
 |Câu lệnh |kết quả| 
 |:------: |:-----:|
@@ -15,6 +16,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzU3MjA1NSwyOTkxMDI4MTMsMTE2Nz
-U1NTE0NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbNDg4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MT
+AyODEzLDExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1
+N119
 -->
