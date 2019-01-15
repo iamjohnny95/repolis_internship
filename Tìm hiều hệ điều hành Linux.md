@@ -163,7 +163,13 @@ Linux có 3 loại user: Regular, Administrator (Root), Service. Trong đó:
 -   **Regular:**  Là tài khoản user thông thường được tạo khi cài đặt Ubuntu trên máy tính. Tất cả các file, thư mục được lưu trữ trong /home/ là thư mục chính của tài khoản này. User này không có quyền truy cập vào thưc mục của những user khác.
 -   **Root:**  Tài khoản này được tạo ra tại thời điểm cài đặt Linux. Root là một superuser, có thể truy cập vào những file bị giới hạn quyền, cài đặt phần mềm và có quyền quản trị. Bất cứ khi nào bạn muốn cài đặt phần mềm, thay đổi file hệ thống hoặc thực hiện các tác vụ cần quyền quản trị khác trên Linux thì phải đăng nhập bằng tài khoản Root. Những hoạt động như nghe nhạc, duyệt web thì có thể sử dụng tài khoản bình thường cũng được.
 -   **Service:**  Hẳn bạn cũng biết Linux là bá chủ trong hệ điều hành máy chủ. Các dịch vụ như Apache, Squid, email,... đều có những tài khoản dịch vụ cá nhân riêng. Những tài khoản này giúp tăng tính bảo mật cho máy tính. Linux cũng cho phép hoặc từ chối truy cập vào những nguồn lực khác nhau tùy thuộc vào dịch vụ.
+### Các thiết lập điều khiển
+- Trước đây, do Windows thống trị thị trường PC nên các nhà sản xuất driver đều tập trung vào hệ điều hành này. Điều này có nghĩa các công ty như AMD và Nvidia ưu tiên Windows hơn Linux. Do vậy, nếu tất cả bạn cần chỉ là xử lý văn bản, một trình duyệt web, chat và email thì Linux là lựa chọn chấp nhận được. Nhưng nếu muốn chơi game thì bạn cần suy xét kỹ. Hiện tại, Linux cũng đã được chú trọng và bạn có thể làm nhiều việc hơn trên những máy tính chạy Linux
+### Tính tự do
+
+Trên hết, môi trường Linux thực sự môi trường mở cho mọi người khám phá, học hỏi và thử nghiệm ý tưởng của họ. Mỗi máy tính Linux là duy nhất, và tính duy nhất xuất phát từ việc phải cá nhân hóa các thiết lập cho phần cứng.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzE3OTE5MCwtMTU1NzIyMzg5NiwxMD
+eyJoaXN0b3J5IjpbLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMD
 k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzXX0=
 -->
