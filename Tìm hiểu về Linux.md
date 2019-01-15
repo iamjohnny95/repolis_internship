@@ -288,16 +288,18 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 3./ boot: chứa các thư mục và tệp tin trong bootloader
 - 4./dev: chứa các thiết bị ngoại vi, thiết bị đầu cuối gắn vào hệ thống 
 - 5./etc: chứa các câu hình của package, và system
-- 6./home: chứa các tập tin
+- 6./home: chứa các tập tin, thư mục người dùng trên hệ thống 
+- 7./lib: chứa các thư viện cho các chương trình trong /bin và /sbin
+- 8./media: 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUwNjExNTMsLTE4ODA3NzQzMywxND
-k5MTcxNDQ4LDE5MzAxNjgwMTAsLTMyMTU2MzM0OCwxNzM0NDA0
-NDI4LDE1NjcwNTYyMjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2Mi
-wtMTU1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2
-ODcxMjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMD
-ZdfQ==
+eyJoaXN0b3J5IjpbNjYzMzE0OTk5LC0xODgwNzc0MzMsMTQ5OT
+E3MTQ0OCwxOTMwMTY4MDEwLC0zMjE1NjMzNDgsMTczNDQwNDQy
+OCwxNTY3MDU2MjIwLC0xMjIzNTI5MjAzLC02MTQxNjUzNjIsLT
+E1NTcyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3
+MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMTU4ODkzMzA2XX
+0=
 -->
