@@ -296,18 +296,31 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 11./tmp: chứa các file tạm thời, của các package đang chạy, sẽ mất đi khi root
 ## Thư mục  home:
 - Trong những hệ thống UNIX, mỗi người dùng có đường dẫn sở hữu của họ. Thông thường được đặt /home.  Thư mục /home thường được mount 1 filesystem riêng biệt trên partition 
-## Thư mục binary:
-- Thư mục /bin bao gồm các binary được thực thi, thiết lập câu lệnh đã được sử dụng ở chế độ người dùng, và các câu lệnh chủ yếu đã được yêu cầu bởi tất cả các thiết bị người dùng như là ps, ls, cp. Các lệnh không cần thiết 
-- 
-- 
 
+## thư mục variable ( thư mục biến động )
+
+-   Thư mục / var chứa các tệp sẽ thay đổi về kích thước và nội dung khi hệ thống đang chạy
+
+```
+- System log files: /var/log
+- Packages files: /var/lib
+- Print queues: /var/spool
+- Temp files: /var/tmp
+- FTP home directory: /var/ftp
+- Web Server directory: /var/www
+
+```
+
+##File System Table
+
+`etc/fstab`  là file dạng văn bản (plain text) cho biết các điểm mount vào filesystem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTQ2MjQ0Nyw0Nzk2MDcwNDIsMTA3Mj
-k4ODg5NCwtMTg4MDc3NDMzLDE0OTkxNzE0NDgsMTkzMDE2ODAx
-MCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0MjgsMTU2NzA1NjIyMCwtMT
-IyMzUyOTIwMywtNjE0MTY1MzYyLC0xNTU3MjIzODk2LDEwOTc5
-OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3LC
-0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
+eyJoaXN0b3J5IjpbLTE3ODEzMjQyNDYsNDc5NjA3MDQyLDEwNz
+I5ODg4OTQsLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5MzAxNjgw
+MTAsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYyMjAsLT
+EyMjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3
+OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2Ny
+wtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
 -->
