@@ -61,11 +61,11 @@
 ** Hệ điều hành CentOS **: hệ điều hành chính thức ra đời năm 2004.
 
 - Các phiên bản phát hành của CentOS có hai phần, một phiên bản chính và một phiên bản nhỏ, tương ứng với phiên bản chính và cập nhật của Red Hat Enterprise Linux được xây dựng là phiên bản của CentOS. Ví dụ, CentOS 4.4 được xây dựng từ các gói nguồn từ Red Hat Enterprise Linux 4. Bắt đầu từ phiên bản 7 trở đi, các số phiên bản CentOS sẽ được bao gồm thêm một phần số cho biết ngày tháng năm phát hành. Ví dụ phiên bản 7.0 -1406
-## ** so sánh 2 phiên bản Ubuntu và CentOS**
+## ** So sánh 2 phiên bản Ubuntu và CentOS**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1OD
-g5MzMwNiwtMTM4NTc4MjE1NCwtMTE5MjI0NTc0NywtMjg1ODkx
-MDU1LDg4OTQ0NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3NywxOT
-g3NTcyMDU1LDI5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMzU3NDU3
-NTkzLC0xNDAwNDcxNTddfQ==
+eyJoaXN0b3J5IjpbNTgxNDYzMTExLDk2MjcyNDk2NywtMjA4OD
+c0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLTExOTIyNDU3
+NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0NzA4Miw0OD
+gzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMTE2NzU1NTE0
+NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
 -->
