@@ -22,12 +22,15 @@
  - Bảo mật cao
  - Tùy biến dễ dàng 
  - Môi trường làm việc đa dạng
+ - Được hỗ trợ mạnh mẽ của cộng đồng
+ - Không yêu cầu phần cứng mạnh mẽ
+ - Hỗ trợ nhiều ứng dụng miễn phí  trong trung tâm
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDgxNDM4MSwtMjg1ODkxMDU1LDg4OT
-Q0NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1
-LDI5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xND
-AwNDcxNTddfQ==
+eyJoaXN0b3J5IjpbLTE2MjE5NDU1ODQsLTI4NTg5MTA1NSw4OD
+k0NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1
+NSwyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMT
+QwMDQ3MTU3XX0=
 -->
