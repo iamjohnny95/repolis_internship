@@ -62,10 +62,30 @@
 
 - Các phiên bản phát hành của CentOS có hai phần, một phiên bản chính và một phiên bản nhỏ, tương ứng với phiên bản chính và cập nhật của Red Hat Enterprise Linux được xây dựng là phiên bản của CentOS. Ví dụ, CentOS 4.4 được xây dựng từ các gói nguồn từ Red Hat Enterprise Linux 4. Bắt đầu từ phiên bản 7 trở đi, các số phiên bản CentOS sẽ được bao gồm thêm một phần số cho biết ngày tháng năm phát hành. Ví dụ phiên bản 7.0 -1406
 ## ** So sánh 2 phiên bản Ubuntu và CentOS**
+au đây là khác biệt chính giữa Ubuntu và CentOS:
+
+1.  Khác biệt lớn nhất giữa 2 phiên bản Linux này là Ubuntu dựa trên Debian và CentTOS dựa trên in Red Hat Enterprise Linux.
+2.  Trong Ubuntu, bạn có thể tải DEB packages bằng  **apt-get** package manager. Tuy nhiên, trong CentOS server, bạn phải sử dụng lệnh  **yum**  để download và cài đặt package RPM packages từ một repository trung tâm.
+3.  CentOS là một phiên bản ổn định hơn so với Ubuntu. Vì mật độ cập nhật phần mềm ít hơn so với Ubuntu server. Nhưng ở một góc độ khác, cũng là điểm yếu của CentOS. Nếu bạn muốn cài đặt bản mới nhất của một phần mềm nào đó, có thể bạn sẽ cần cài đặt thủ công.
+
+Tuy nhiên việc này không có nghĩa nếu Ubuntu server thì phải chịu cảnh không ổn định hay kém bảo mật; nó chỉ ít ổn định hơn một chút so với CentOS.
+
+1.  Ubuntu dĩ nhiên nằm ở kèo trên vì lượng bài viết, cộng đồng sử dụng, và sách hướng dẫn. Tìm giải pháp cho các vấn đề liên quan đến Ubuntu server cũng dễ hơn nhiều so với CentOS vì công động người dùng của OS nhỏ hơn và ít lại liệu hỗ trợ hơn.
+2.  Ubuntu server hỗ trợ cực tốt cho container và cloud deployments cũng khiến nó mạnh hơn hẳn so với CentOS ổ mảng này.
+3.  Nếu bạn là người mới sử dụng, chạy CentOS có thể gây ít khó khăn cho bạn vì vì nền tảng này chưa được dùng nhiều. Mặt khác, Ubuntu Desktop nổi tiếng và có thể bạn đã dùng nó rồi, nên việc làm quen với VPS ubuntu cũng nhanh chóng hơn.
+4.  Nếu bạn muốn cài control panels để cấp dịch vụ web hosting vậy bạn nê sử dụng CemntOS vì nó tương thích và phù hợp hơn. Web Hosting control panel như là cPanel luôn tập trung vào CentOS và những phiên bản nền RHEL khác. Mặc khác, Ubuntu không hỗ trợ cPanel, nhưng cũng hỗ trợ một số phần mềm thay thế, như là Webmin/Virtualmin hoặc VestaCP.
+
+Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc giữa 2 phiên bản Linux này vì không nên cứ bám vào một phiên cho mọi mục đích sử dụng. Chọn hệ điều hành đúng sẽ cần bạn đánh giá toàn diện mặt mạnh và yếu của hệ điều hành đó, đồng thơi phân tích nhu cầu và điều kiện của bạn. Chúng tôi có các đề nghị như sau:
+
+-   **Nếu bạn là người mới bắt đầu:**  hãy chọn Ubuntu vì cộng đồng người dùng lớn, nhiều tài liệu miễn phí và cập nhật thường xuyên. Giao diện Ubuntu desktop cũng dễ dùng hơn. CentOS cũng có thể được chọn nếu bạn không ngại tìm tòi và vượt qua vài trở ngại ban đầu.
+-   **Nếu bạn là một người dùng cho việc kinh doanh:**  CentOS là lựa chọn lý tưởng, nếu bạn chạy đang vận hành công việc kinh doanh, hoặc nếu bạn là quan trọng việc bảo mật. Ubuntu có lợi thế là cập nhật nhanh nhưng có nhiều trường hợp thực tế là bạn phải dùng bản cũ vì bản mới gặp lỗi do chưa được kiểm tra kỹ. Hơn nữa, CentOS cũng có hỗ trợ cPanel, một điều quan trọng mà Ubuntu thiếu.
+
+** Bảng so sánh giữa Ubuntu và CentOS: **
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNDYzMTExLDk2MjcyNDk2NywtMjA4OD
-c0NjYxMiwxNTg4OTMzMDYsLTEzODU3ODIxNTQsLTExOTIyNDU3
-NDcsLTI4NTg5MTA1NSw4ODk0NDYxMTMsLTYxNzg0NzA4Miw0OD
-gzMTI2NzcsMTk4NzU3MjA1NSwyOTkxMDI4MTMsMTE2NzU1NTE0
-NywtMTM1NzQ1NzU5MywtMTQwMDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbMjEwMDUzNTQ5MSw5NjI3MjQ5NjcsLTIwOD
+g3NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTkyMjQ1
+NzQ3LC0yODU4OTEwNTUsODg5NDQ2MTEzLC02MTc4NDcwODIsND
+g4MzEyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUx
+NDcsLTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
