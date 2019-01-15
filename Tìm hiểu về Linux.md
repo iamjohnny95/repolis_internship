@@ -201,10 +201,15 @@ Fedora được Red Hat tài trợ và là nền tảng cho dự án Red Hat Ent
 Red Hat Enterprise Linux là một bản phân phối Linux thương mại dành cho máy chủ và máy trạm. Nó được phát triển dựa trên dự án nguồn mở Fedora, nhưng được thiết kế để trở thành một nền tảng ổn định với sự hỗ trợ lâu dài hơn.
 
 Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần mềm Red Hat Enterprise Linux chính thức của họ bị phân phối lại trái phép. Tuy nhiên, phần mềm cốt lõi lại là miễn phí và có mã nguồn mở, và CentOS xuất hiện. CentOS là một dự án cộng đồng lấy mã Red Hat Enterprise Linux, xóa tất cả các nhãn hiệu của Red Hat và được cung cấp cũng như phân phối miễn phí. Nói cách khác, đây là một phiên bản miễn phí của RHEL, vì vậy sẽ rất phù hợp nếu bạn muốn một nền tảng ổn định sẽ được hỗ trợ trong một thời gian dài. CentOS và Red Hat gần đây đã thông báo họ đang cộng tác với nhau, vì vậy CentOS hiện là một phần trong Red Hat.
-## Câu lệnh làm 
+## Câu lệnh mở đầu với Linux
+### 1. ls - List
+
+**ls** liệt kê nội dung (file và thư mục) trong thư mục hiện hành. Nó cũng tương tự với việc bạn mở một thư mục và xem nội dung trong đó trên giao diện người dùng.
+
+![Học lập trình trực tuyến](https://techmaster.vn/fileman/Uploads/1-ls.jpg "Học lập trình trực tuyến")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU2MjY0MTMsLTEyMjM1MjkyMDMsLT
-YxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5
-MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMi
-wxNTg4OTMzMDZdfQ==
+eyJoaXN0b3J5IjpbNDg2MTIxNDU5LC0xMjIzNTI5MjAzLC02MT
+QxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMw
+NTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3NDY2MTIsMT
+U4ODkzMzA2XX0=
 -->
