@@ -293,16 +293,16 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 8./media: là các điểm gắn kết system với các thiết bị bên ngoài 
 - 9./mnt: điểm  gắn kết cho phép  gắn trực tiếp filesystem
 - 10./opt: chứa các gói phần mềm từ các package đã cài đặt 
-- 11./tmp: chứa các 
+- 11./tmp: chứa các file tạm thời, 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mjk4ODg5NCwtMTg4MDc3NDMzLDE0OT
-kxNzE0NDgsMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0
-MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1MzYyLC
-0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4
-NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl
-19
+eyJoaXN0b3J5IjpbLTEzMDQ1OTk2MzQsMTA3Mjk4ODg5NCwtMT
+g4MDc3NDMzLDE0OTkxNzE0NDgsMTkzMDE2ODAxMCwtMzIxNTYz
+MzQ4LDE3MzQ0MDQ0MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMy
+wtNjE0MTY1MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQx
+NjkzMDUyLDE4NTY4NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2Nj
+EyLDE1ODg5MzMwNl19
 -->
