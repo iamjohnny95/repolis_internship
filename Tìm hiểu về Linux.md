@@ -115,8 +115,17 @@ Trong dòng chảy của sự phát triển của Unix, năm 1983 đã diễn ra
 Tháng 9 năm 1983, **Richard Stallman** thông báo về sự ra đời của dự án **GNU** (GNU là viết tắt của từ **GNU’s not Unix**
 Mục tiêu của dự án GNU là tạo ra được một hệ điều hành miễn phí, **giống** Unix, nơi mà mọi người có quyền tự do copy, phát triển, chỉnh sửa và phân phối phần mềm, và việc tái phân phối là không bị giới hạn. (Nên nhớ, Unix và các phiên bản rẽ nhánh từ Unix ban đầu đều là close source và bị ràng buộc bản quyền)
 Năm 1985, Richard thành lập tổ chức **Free Software Foundation**,  một tổ chức phi lợi nhuận muốn thúc đẩy sự tự do trong trong phát triển phần mềm.
+Project GNU đã tạo ra được rất nhiều sản phẩm quan trọng như  **GNU Compiler Collection (gcc)**,  **GNU Debugger**,  **GNU Emacs text editor (Emacs)**,  **GNU build automator (make)**  … Ngoài ra còn phải kể đến giấy phép nổi tiếng được sử dụng rộng rãi nhất hiện nay:  **GNU General Public License (GPL)**
+
+GNU Project đã đạt được nhiều thành tựu lớn, tạo ra được nhiều công cụ tương tự như những gì có trên Unix.  **Tuy nhiên, GNU vẫn thiếu một thành phần quan trọng, mảnh ghép cuối cùng để nó trở thành một hệ điều hành hoàn chỉnh**. Đó chính là  **Kernel**, phần thực hiện công việc điều khiển, giao tiếp với các thiết bị phần cứng (CPU, RAM, Devices …).
+
+Và Linus Torvalds xuất hiện …
+
+**Linux**
+
+Ngày 25 tháng 8 năm 1991, một cậu sinh viên ở Phần Lan mang tên Linus Torvalds giới thiệu một sản phẩm cá nhân, sau này trở thành Linux Kernel.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjgzMDEyNiwtMTU1NzIyMzg5NiwxMD
+eyJoaXN0b3J5IjpbLTEyMDM2NzkwOSwtMTU1NzIyMzg5NiwxMD
 k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2
 NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ==
 -->
