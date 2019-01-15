@@ -140,7 +140,16 @@ Linux không có registry. Các ứng dụng trên Linux lưu thiết lập củ
 ### Trình quản lý gói
 
 ![Trình quản lý gói trên Linux](https://st.quantrimang.com/photos/image/092012/29/linux3.jpg)
+Trên Windows người dùng sẽ phải sử dụng các gói cài đặt. Đây là những file *.exe của chương trình muốn cài, được tải về thông qua các website. Và khi cần gỡ, ta sẽ phải vào Control Panel.
+
+Nhưng với hầu hết các hệ thống Linux, bạn sẽ không phải cài đặt chương trình theo cách này nữa. Thay vào đó, hệ thống có một chương trình quản lý gói (package manager) giống như một trung tâm duyệt web, cài đặt hay gỡ bỏ gói chương trình. Thay vì truy cập website Firefox để tải Firefox, bạn có thể chỉ cần tra trong các kho lưu dữ liệu của trình quản lý gói và tải về trực tiếp ứng dụng từ đây.
+
+Đây là một trong những ưu điểm của Linux so với Windows.
+### Giao diện thay đổi được
+
+![Giao diện của Linux thay đổi được](https://st.quantrimang.com/photos/image/092012/29/linux4.jpg)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTI2MDkwOSwtMTU1NzIyMzg5NiwxMD
-k3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzXX0=
+eyJoaXN0b3J5IjpbLTM2ODcxNjc0LC0xNTU3MjIzODk2LDEwOT
+c5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEyODNdfQ==
 -->
