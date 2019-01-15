@@ -185,8 +185,16 @@ Mint là một bản phân phối Linux được xây dựng trên Ubuntu. Nó s
 Bản phân phối này hiện cũng có được bản sắc riêng của mình. Bạn sẽ không tìm thấy desktop Unity của Ubuntu nữa, thay vào đó, bạn sẽ có được một màn hình Cinnamon hoặc MATE truyền thống hơn. Mint có cách tiếp cận thoải mái hơn đối với việc phát hành các bản cập nhật phần mềm và sẽ không tự động cài đặt các bản cập nhật phần mềm quan trọng. Tuy nhiên đây cũng là một vấn đề gây tranh cãi, khiến một số nhà phát triển Ubuntu cho rằng nó không an toàn.
 ## **Debian**
 Debian là một hệ điều hành chỉ bao gồm các phần mềm mã nguồn mở miễn phí. Dự án Debian đã hoạt động từ năm 1993, tức là khoảng 25 năm trước! Dự án này từ lúc ra đời đến nay luôn nhân được tôn trọng lớn trong cộng đồng các nhà phát triển. Đến nay, Debian vẫn đều đặn phát hành các phiên bản mới, nhưng đáng tiếc là các phiên bản mới này được Debian cập nhật chậm hơn nhiều so với các bản phân phối như Ubuntu hay Linux Mint. Điều này có thể làm cho nó ổn định và bảo thủ hơn và chứa đựng những yếu tố lý tưởng cho một số hệ thống.
+## **Fedora**
+
+![Fedora](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay4.jpg)**
+
+Fedora là một dự án tập trung chủ yếu vào các phần mềm miễn phí. Bạn sẽ khó có thể tìm thấy cách dễ dàng để cài đặt các trình điều khiển đồ họa độc quyền trên Fedora, mặc dù các kho lưu trữ của bên thứ ba luôn có sẵn. Fedora vẫn đang được tập trung phát triển và tối ưu.
+
+Không giống như Ubuntu, Fedora không tạo một môi trường làm việc riêng của mình hoặc một phần mềm khác. Thay vào đó, dự án Fedora sử dụng phần mềm “upstream”, cung cấp một nền tảng tích hợp tất cả phần mềm này mà không cần thêm các công cụ tùy chỉnh riêng. Fedora cũng đi kèm với môi trường desktop GNOME 3 theo mặc định, và bạn cũng có thể sử dụng Fedora với các môi trường máy tính để bàn khác.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjgxODY1NywtNjE0MTY1MzYyLC0xNT
-U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
-ODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNl19
+eyJoaXN0b3J5IjpbLTE5NjgzNzk1ODMsLTYxNDE2NTM2MiwtMT
+U1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcx
+MjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDZdfQ
+==
 -->
