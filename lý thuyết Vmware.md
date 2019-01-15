@@ -15,13 +15,14 @@
  - ** hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
  - Ubuntu LTS: là phiên bản hỗ trợ dài hạn. Ubuntu liên tục tạo ra các phiên bản nâng cấp về bảo mật và cập nhật sửa lỗi. Hết thời gian hỗ trợ, họ khuyên là nên nâng cấp phiên bản, đồng thời ubuntu sẽ dừng support phiên bản cũ. 
  - Cứ sau 6 tháng Ubuntu sẽ tung ra phiên bản mới cho máy chủ và để bàn. Ubuntu được thiết kế với tính năng bảo mật. Người dùng sẽ luôn nhận được cập nhật bảo mật ít nhất 9 tháng.
- - Sau 2 năm thì phiên bảo LTS sẽ được cập nhật 
+ - Sau 2 năm thì phiên bảo LTS sẽ được cập nhật.
+ -  Chứng chỉ LTS chỉ được áp dụng đối với thành phần thuộc máy chủ. 
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDg0Nzc4MiwtMjg1ODkxMDU1LDg4OT
-Q0NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1
-LDI5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xND
-AwNDcxNTddfQ==
+eyJoaXN0b3J5IjpbNTM1OTgxODMxLC0yODU4OTEwNTUsODg5ND
+Q2MTEzLC02MTc4NDcwODIsNDg4MzEyNjc3LDE5ODc1NzIwNTUs
+Mjk5MTAyODEzLDExNjc1NTUxNDcsLTEzNTc0NTc1OTMsLTE0MD
+A0NzE1N119
 -->
