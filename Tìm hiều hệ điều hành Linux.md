@@ -179,9 +179,12 @@ Dự án Ubuntu tập trung vào việc cung cấp cho người dùng trải ngh
 
 Ubuntu là một bản phân phối hiện đại, không ngừng cải tiến nhưng vẫn giữ lại được những bản sắc riêng của mình. Ubuntu phát hành các bản cập nhật mỗi sáu tháng, đi cùng với đó là những bản cập nhật lớn, hỗ trợ lâu dài và ổn định hơn được đưa đến tay người dùng hai năm một lần. Ubuntu hiện đang nỗ lực để mở rộng ảnh hưởng của mình trên điện thoại thông minh và máy tính bảng.
 ## **Linux Mint**
-**![Linux Mint](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay2.jpg)**
+**![Linux Mint](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay2.jpg)
+Mint là một bản phân phối Linux được xây dựng trên Ubuntu. Nó sử dụng kho phần mềm của Ubuntu, vì vậy các phần mềm tương tự sẽ có sẵn và sử dụng được trên cả hai bản phân phối này. Ban đầu, Mint là một bản phân phối thay thế được yêu thích chủ yếu bởi vì nó bao gồm các codec phương tiện (media codec) và các phần mềm sở hữu độc quyền mà Ubuntu không cung cấp theo mặc định.
+
+Bản phân phối này hiện cũng có được bản sắc riêng của mình. Bạn sẽ không tìm thấy desktop Unity của Ubuntu nữa, thay vào đó, bạn sẽ có được một màn hình Cinnamon hoặc MATE truyền thống hơn. Mint có cách tiếp cận thoải mái hơn đối với việc phát hành các bản cập nhật phần mềm và sẽ không tự động cài đặt các bản cập nhật phần mềm quan trọng. Tuy nhiên đây cũng là một vấn đề gây tranh cãi, khiến một số nhà phát triển Ubuntu cho rằng nó không an toàn.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDAyMTExOSwtNjE0MTY1MzYyLC0xNT
-U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
-ODNdfQ==
+eyJoaXN0b3J5IjpbOTE3NTcwNzk2LC02MTQxNjUzNjIsLTE1NT
+cyMjM4OTYsMTA5Nzk5Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4
+M119
 -->
