@@ -9,10 +9,12 @@
 - ***Fedora*** là phiên bản miễn phí dành cho người dùng, đồng thời cũng là phiên bản thử nghiệm đưa ra cộng đồng sử dụng và phản hồi, từ đó những đặc tính nổi bật của Fedora sẽ đúc kết vào phiên bản RHEL. Thông thường, cứ 6 tháng Fedora sẽ đưa ra phiên bản mới với các tính năng bảo mật mà các chuyên gia đánh giá khá tốt.
  - Fedora là distro dựa trên RPM. Fedora có thể dùng cho máy tính để bàn và máy trạm, thậm chí máy chủ; dành cho những người mới tiếp cận PMTDNM hay những người đã có nhiều kinh nghiệm. Từ đĩa CD/DVD, người dùng có thể cài đặt tất cả các ứng dụng, dịch vụ, thư viện cần thiết của Fedora và sau đó chỉ việc sử dụng chúng. Tuy nhiên, cách quản lý gói tin của Fedora gây không ít khó khăn cho người dùng
  - ***Debian GNU/Linux*** là hệ điều hành (HĐH) PMTD mà sử dụng nhân Linux để phát triển distro riêng của nó. Vào năm 2007, Debian hỗ trợ cho nhiều kiến trúc khác nhau như Intel x86, ARM, Motorola, PowerPC, Alpha, SPARC.
+ - Các distro Debian GNU/Linux ra đời là do các tình nguyện viên, thường là những chuyên gia về công nghệ thông tin đóng góp. Công việc của họ là thiết lập cấu hình, biên dịch, tích hợp các phần mềm sao cho tất cả có thể tương thích với nhau. Ngoài ra, các lập trình viên còn phải có trách nhiệm duy trì hạ tầng các dịch vụ dựa trên Internet như tập tin lưu trực tuyến, hệ thống quản lý lỗi… kèm theo là các dự án về dịch thuật, quốc tế hóa một loạt công cụ đặc biệt cho Debian GNU/Linux.
+ - Ngoài ra, Debian GNU/Linux còn có một “hợp đồng xã hội” (www.debian.org/social_contract.html), ở tài liệu này sẽ đề cập đến mục tiêu chính của dự án Debian GNU/Linux với chính sách gói tin và phiên bản chặt chẽ. Debian GNU/Linux có 3 dạng khác nhau: phiên bản ổn định mà người dùng được khuyến khích sử dụng, phiên bản không ổn định và phiên bản thử nghiệm dành cho những ai mong muốn có được phần mềm mới nhất.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzU3NzYyLC02MTc4NDcwODIsNDg4Mz
+eyJoaXN0b3J5IjpbODg5NDQ2MTEzLC02MTc4NDcwODIsNDg4Mz
 EyNjc3LDE5ODc1NzIwNTUsMjk5MTAyODEzLDExNjc1NTUxNDcs
 LTEzNTc0NTc1OTMsLTE0MDA0NzE1N119
 -->
