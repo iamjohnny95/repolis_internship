@@ -294,16 +294,17 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 9./mnt: điểm  gắn kết cho phép  gắn trực tiếp filesystem
 - 10./opt: chứa các gói phần mềm từ các package đã cài đặt 
 - 11./tmp: chứa các file tạm thời, của các package đang chạy, sẽ mất đi khi root
-
+## Đường dẫn home:
+- Trong những hệ thống UNIX, mỗi nguwoif d
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NjA3MDQyLDEwNzI5ODg4OTQsLTE4OD
-A3NzQzMywxNDk5MTcxNDQ4LDE5MzAxNjgwMTAsLTMyMTU2MzM0
-OCwxNzM0NDA0NDI4LDE1NjcwNTYyMjAsLTEyMjM1MjkyMDMsLT
-YxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5
-MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMi
-wxNTg4OTMzMDYsLTEzODU3ODIxNTQsLTExOTIyNDU3NDcsLTI4
-NTg5MTA1NV19
+eyJoaXN0b3J5IjpbODAwNDQ5ODcyLDQ3OTYwNzA0MiwxMDcyOT
+g4ODk0LC0xODgwNzc0MzMsMTQ5OTE3MTQ0OCwxOTMwMTY4MDEw
+LC0zMjE1NjMzNDgsMTczNDQwNDQyOCwxNTY3MDU2MjIwLC0xMj
+IzNTI5MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5
+Nzg4NSw0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLT
+IwODg3NDY2MTIsMTU4ODkzMzA2LC0xMzg1NzgyMTU0LC0xMTky
+MjQ1NzQ3XX0=
 -->
