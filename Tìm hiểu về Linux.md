@@ -267,10 +267,11 @@ Bạn có thể dùng  **grep -i <chuỗi> <tên file>** để tìm kiếm khôn
 Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm kiếm không phân biệt hoa thường.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3Mz
-Q0MDQ0MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1
-MzYyLC0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLD
-E4NTY4NzEyODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5
-MzMwNl19
+eyJoaXN0b3J5IjpbMTQ5OTE3MTQ0OCwxOTMwMTY4MDEwLC0zMj
+E1NjMzNDgsMTczNDQwNDQyOCwxNTY3MDU2MjIwLC0xMjIzNTI5
+MjAzLC02MTQxNjUzNjIsLTE1NTcyMjM4OTYsMTA5Nzk5Nzg4NS
+w0NDE2OTMwNTIsMTg1Njg3MTI4Myw5NjI3MjQ5NjcsLTIwODg3
+NDY2MTIsMTU4ODkzMzA2XX0=
 -->
