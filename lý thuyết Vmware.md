@@ -185,19 +185,28 @@ Mint là một bản phân phối Linux được xây dựng trên Ubuntu. Nó s
 Bản phân phối này hiện cũng có được bản sắc riêng của mình. Bạn sẽ không tìm thấy desktop Unity của Ubuntu nữa, thay vào đó, bạn sẽ có được một màn hình Cinnamon hoặc MATE truyền thống hơn. Mint có cách tiếp cận thoải mái hơn đối với việc phát hành các bản cập nhật phần mềm và sẽ không tự động cài đặt các bản cập nhật phần mềm quan trọng. Tuy nhiên đây cũng là một vấn đề gây tranh cãi, khiến một số nhà phát triển Ubuntu cho rằng nó không an toàn.
 ## **Debian**
 Debian là một hệ điều hành chỉ bao gồm các phần mềm mã nguồn mở miễn phí. Dự án Debian đã hoạt động từ năm 1993, tức là khoảng 25 năm trước! Dự án này từ lúc ra đời đến nay luôn nhân được tôn trọng lớn trong cộng đồng các nhà phát triển. Đến nay, Debian vẫn đều đặn phát hành các phiên bản mới, nhưng đáng tiếc là các phiên bản mới này được Debian cập nhật chậm hơn nhiều so với các bản phân phối như Ubuntu hay Linux Mint. Điều này có thể làm cho nó ổn định và bảo thủ hơn và chứa đựng những yếu tố lý tưởng cho một số hệ thống.
-## **Fedora**
+### **Fedora**
 
 ![Fedora](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay4.jpg)**
 
 Fedora là một dự án tập trung chủ yếu vào các phần mềm miễn phí. Bạn sẽ khó có thể tìm thấy cách dễ dàng để cài đặt các trình điều khiển đồ họa độc quyền trên Fedora, mặc dù các kho lưu trữ của bên thứ ba luôn có sẵn. Fedora vẫn đang được tập trung phát triển và tối ưu.
 
 Không giống như Ubuntu, Fedora không tạo một môi trường làm việc riêng của mình hoặc một phần mềm khác. Thay vào đó, dự án Fedora sử dụng phần mềm “upstream”, cung cấp một nền tảng tích hợp tất cả phần mềm này mà không cần thêm các công cụ tùy chỉnh riêng. Fedora cũng đi kèm với môi trường desktop GNOME 3 theo mặc định, và bạn cũng có thể sử dụng Fedora với các môi trường máy tính để bàn khác.
+Fedora được Red Hat tài trợ và là nền tảng cho dự án Red Hat Enterprise Linux theo quy mô thương mại. Không giống như RHEL, Fedora có khả năng không được hỗ trợ lâu dài. Nếu bạn muốn một bản phát hành ổn định hơn được hỗ trợ lâu hơn, Red Hat khuyên bạn nên sử dụng sản phẩm Enterprise của họ thì hơn.
+
+### **CentOS/Red Hat Enterprise Linux**
+
+**![CentOS/Red Hat Enterprise Linux](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay5.jpg)**
+
+Red Hat Enterprise Linux là một bản phân phối Linux thương mại dành cho máy chủ và máy trạm. Nó được phát triển dựa trên dự án nguồn mở Fedora, nhưng được thiết kế để trở thành một nền tảng ổn định với sự hỗ trợ lâu dài hơn.
+
+Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần mềm Red Hat Enterprise Linux chính thức của họ bị phân phối lại trái phép. Tuy nhiên, phần mềm cốt lõi lại là miễn phí và có mã nguồn mở, và CentOS xuất hiện. CentOS là một dự án cộng đồng lấy mã Red Hat Enterprise Linux, xóa tất cả các nhãn hiệu của Red Hat và được cung cấp cũng như phân phối miễn phí. Nói cách khác, đây là một phiên bản miễn phí của RHEL, vì vậy sẽ rất phù hợp nếu bạn muốn một nền tảng ổn định sẽ được hỗ trợ trong một thời gian dài. CentOS và Red Hat gần đây đã thông báo họ đang cộng tác với nhau, vì vậy CentOS hiện là một phần trong Red Hat.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgzNzk1ODMsLTYxNDE2NTM2MiwtMT
-U1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2ODcx
-MjgzLDk2MjcyNDk2NywtMjA4ODc0NjYxMiwxNTg4OTMzMDYsLT
-EzODU3ODIxNTQsLTExOTIyNDU3NDcsLTI4NTg5MTA1NSw4ODk0
-NDYxMTMsLTYxNzg0NzA4Miw0ODgzMTI2NzcsMTk4NzU3MjA1NS
-wyOTkxMDI4MTMsMTE2NzU1NTE0NywtMTM1NzQ1NzU5MywtMTQw
-MDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTcwODY5MDIxNiwtNjE0MTY1MzYyLC0xNT
+U3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4NzEy
+ODMsOTYyNzI0OTY3LC0yMDg4NzQ2NjEyLDE1ODg5MzMwNiwtMT
+M4NTc4MjE1NCwtMTE5MjI0NTc0NywtMjg1ODkxMDU1LDg4OTQ0
+NjExMywtNjE3ODQ3MDgyLDQ4ODMxMjY3NywxOTg3NTcyMDU1LD
+I5OTEwMjgxMywxMTY3NTU1MTQ3LC0xMzU3NDU3NTkzLC0xNDAw
+NDcxNTddfQ==
 -->
