@@ -290,15 +290,16 @@ Bạn cũng có thể dùng  **find <thư mục> -iname <tên file>** để tìm
 - 5./etc: chứa các câu hình của package, và system
 - 6./home: chứa các tập tin, thư mục người dùng trên hệ thống 
 - 7./lib: chứa các thư viện cho các chương trình trong /bin và /sbin
-- 8./media: là các 
+- 8./media: là các điểm gắn kết system với các thiết bị bên ngoài 
+- 9./mnt: điểm  gắn kết 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE0MjYyMDIsLTE4ODA3NzQzMywxND
-k5MTcxNDQ4LDE5MzAxNjgwMTAsLTMyMTU2MzM0OCwxNzM0NDA0
-NDI4LDE1NjcwNTYyMjAsLTEyMjM1MjkyMDMsLTYxNDE2NTM2Mi
-wtMTU1NzIyMzg5NiwxMDk3OTk3ODg1LDQ0MTY5MzA1MiwxODU2
-ODcxMjgzXX0=
+eyJoaXN0b3J5IjpbMTQ3OTUwOTYxOCwtMTg4MDc3NDMzLDE0OT
+kxNzE0NDgsMTkzMDE2ODAxMCwtMzIxNTYzMzQ4LDE3MzQ0MDQ0
+MjgsMTU2NzA1NjIyMCwtMTIyMzUyOTIwMywtNjE0MTY1MzYyLC
+0xNTU3MjIzODk2LDEwOTc5OTc4ODUsNDQxNjkzMDUyLDE4NTY4
+NzEyODNdfQ==
 -->
