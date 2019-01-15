@@ -91,6 +91,8 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 |Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
 |Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
+## Nguồn 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Njg3MTI4M119
+eyJoaXN0b3J5IjpbMTc4MTQxMDc3NiwxODU2ODcxMjgzXX0=
 -->
