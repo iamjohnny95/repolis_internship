@@ -42,6 +42,6 @@
 
   - Lưu lại, và ssh vào máy ảo bằng địa chỉ máy thật qua port 1111. Ở đây tôi sử dụng Xshell. Sau đó đăng nhập mật khẩu
 
-  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/2.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/2.png)
+  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/5.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/5.png)
 
 
