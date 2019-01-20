@@ -30,18 +30,18 @@
   - Ip máy thật có địa chỉ : 192.168.100.11
   - Vào VMWare -> Chọn Edit -> Virtual Network Editor
 
-  ![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/1.png)
+  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/1.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/1.png)
 
   - Thay đổi cài đặt -> Change Setting làm theo hình
 
-  ![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/2.png)
+  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/2.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/2.png)
 
   - Chọn cổng nằm trong dải khả dụng mà máy thật của bạn chưa sử dụng
 
-  ![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/3.png)
+  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/3.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/3.png)
 
   - Lưu lại, và ssh vào máy ảo bằng địa chỉ máy thật qua port 1111. Ở đây tôi sử dụng Xshell. Sau đó đăng nhập mật khẩu
 
-  ![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/2.png)
+  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/VM/2.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/VM/2.png)
 
 
