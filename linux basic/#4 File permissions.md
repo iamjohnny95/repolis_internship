@@ -1,14 +1,14 @@
 # File permissions
 - Trong linux và những hệ điều hành Unix khác, mỗi file được liên kết với 1 người dùng người sở hữu file đó. Mỗi file cũng được liên kết với 1 group, các quyền hạn được thực thi lên file hay thư mục: read, write và excute.
 |Command|Result|
-|-------|------|
+|-------|:------:|
 | chown |sử dụng để thay đổi người dùng của file hay đường dẫn|
 | chgrp |sử dụng để thay đổi group của file sở hữu|
 | chmod | sử dụng để thay đổi quyền trên file|
 
 - file có 3 quyền là: read(r),write(w),excute(x). Những quyền này ảnh hưởng đén 3 nhóm của sở hữu: user(u), group(g), other(o). mỗi nhóm có tối đa 3 quyền hạn
 |rwx|rwx|rwx|
-|---|---|---|
+|---|:---:|:---:|
 | u | g | o |
 - Có một số cách khác để sử dụng lệnh `chmod`. Cho ví dụ, để thêm quyền excute cho user sở hữu file đó
 ```

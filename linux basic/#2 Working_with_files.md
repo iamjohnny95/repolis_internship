@@ -3,19 +3,19 @@
   - chuẩn đầu vào or stdin
   - chuẩn đầu ra or stdout
   - chuẩn báo lỗi or stderr
-** Chuẩn stdin **
+**Chuẩn stdin**
 - Đây là nơi mà dữ liệu được nhập vào, và thường là thiết bị cuối (terminal).
 
   -Ví dụ: Bạn có thể chuyển nội dung của tệp tin cho lệnh "grep" như sau:
 
    `$grep root < /path/to/some/file ` # hiển thị các dòng chứa từ root trong tệp tin.​
-** Chuẩn stdout **
+**Chuẩn stdout**
 - Đây là nơi chương trình xuất dữ liệu ra.
 
   -Ví dụ bạn muốn lệnh "echo" kết xuất dữ liệu ra một tệp tin, thế thì làm như sau:
 
    `$echo "Hello" > hello.txt ` # hello.txt sẽ có nội dung là "Hello".​
-** Chuẩn stderr **
+**Chuẩn stderr**
 - Là nơi các chương trình báo lỗi
 
   - Ví dụ giả sử thư mục demo đã có rồi, mà bạn lại tạo sẽ gây lỗi. Bây giờ tôi xin hướng dẫn cách lấy lỗi của lệnh này và chuyển nội dung vào tệp tin log.txt.
@@ -39,7 +39,7 @@
 ```
 - Thứ sẽ list tất cả các file và đường dẫn với cả "zip" và "bin" theo tên của chúng. Wildcard có thể được sử dụng trong tìm kiếm danh sách tên bao gồm những ký tự đặc biệt.
 |Wildcard| Result|
-|--------|-------|
+|--------|:-------:|
 |   *    |những chuỗi của ký tự|
 |   ?    |những ký tự đơn|
 - Câu lệnh `find` thực sự hữu ích và thường được sử dụng hằng ngày đối với các quản trị hệ thống linux. Nó đệ quy xuống các cây file hệ thống từ những đường dẫn cụ thể và xác định những file đó nối với điều kiện cụ thể. Ví dụ để tìm tất cả các file trong thư mục var có đuôi .log ta sử dụng câu lệnh:
@@ -60,7 +60,7 @@ $ find /var -name *.log
 ## Quản lý file:
 - Sử dụng các câu lệnh ở bảng dưới.
 |Câu lệnh|Sử dụng|
-|--------|-------|
+|--------|:-------:|
 |  Cat   |Được sử dụng để xem những file không quá dài|
 |  less  |Sử dụng để xem những file dài có thể cuộn lên và xuống được|
 |  tail  |mặc định in ra 10 dòng của file. Bạn có thể thay đổi số của dòng đầu bằng -n 15 nếu muốn xem 15 dòng cuối thay vì 10 như mặc định |

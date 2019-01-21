@@ -1,16 +1,16 @@
 ﻿# Cài đặt Ubuntu
 
-** Cài đặt process và memory cho hệ điều hành**
+**Cài đặt process và memory cho hệ điều hành**
 
  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/ubuntu/Ubuntu1.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/ubuntu/Ubuntu1.png)
 
-  ** Tiến hành cài đặt trên hệ điều hành Ubuntu**
+  **Tiến hành cài đặt trên hệ điều hành Ubuntu**
 
--   Chọn ** " Install Ubuntu Server" **
+-   Chọn **" Install Ubuntu Server"**
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/ubuntu/Ubuntu2.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/ubuntu/Ubuntu2.png)
 
--   Tiếp theo chọn phần ** " Select a Language" ** , phải chọn ngôn ngữ cho hệ điều hành
+-   Tiếp theo chọn phần **" Select a Language"** , phải chọn ngôn ngữ cho hệ điều hành
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/ubuntu/Ubuntu3.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/ubuntu/Ubuntu3.png)
 
