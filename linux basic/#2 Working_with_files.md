@@ -59,12 +59,10 @@ $ find /var -name *.log
 - Câu lệnh để tìm ra những file có dung lượng lớn hơn 10 MB
 ## Quản lý file:
 - Sử dụng các câu lệnh ở bảng dưới.
-|Câu lệnh|Sử dụng|
-|--------|:-------:|
-|  Cat   |Được sử dụng để xem những file không quá dài|
-|  less  |Sử dụng để xem những file dài có thể cuộn lên và xuống được|
-|  tail  |mặc định in ra 10 dòng của file. Bạn có thể thay đổi số của dòng đầu bằng -n 15 nếu muốn xem 15 dòng cuối thay vì 10 như mặc định |
-|  head  |trái ngược với tail, head cho phép xem mặc định là 10 dòng đầu của file|
+  -Cat :Được sử dụng để xem những file không quá dài
+  -less:Sử dụng để xem những file dài có thể cuộn lên và xuống được
+  -tail:mặc định in ra 10 dòng của file. Bạn có thể thay đổi số của dòng đầu bằng -n 15 nếu muốn xem 15 dòng cuối thay vì 10 như mặc định 
+  -head:trái ngược với tail, head cho phép xem mặc định là 10 dòng đầu của file
 
 - Câu lệnh `touch` được sử dụng để tạo file. Câu lệnh có cú pháp sau:
 ` $ touch <filename>`
