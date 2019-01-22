@@ -8,7 +8,7 @@
 - rsync kết hợp SSH bảo mật dữ liệu truyền trên internet.
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/rsync.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/rsync.png)
+
 
 ## Cài đặt RSYNC
 - Bên trên là một số tính năng quan trọng của rsync, để bắt đầu chúng ta phải cài rsync cho máy chủ của mình trước, nếu chưa có chạy lệnh.
@@ -43,7 +43,7 @@ Trong đó:
  - Nén cả file thư mục thì ta sử dụng lệnh tar
    - **Nén** `tar -cvf /root/sondz.tar /root/sondz` , còn muốn nén theo chuẩn gz thì sử dụng câu lệnh `tar -czvf /root/sondz.tar.gz /root/sondz`, nén sang chuẩn bz thì sử dụng câu lệnh `tar -cjvf /root/sondz.tar.bz /root/sondz`
    - **Giải nén** `tar -xvf sondz.tar.gz` 
-   
+
 
 
 
