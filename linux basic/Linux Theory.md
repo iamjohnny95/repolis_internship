@@ -1,4 +1,4 @@
-﻿#**1.Lịch sử hình thành linux**
+﻿# **1.Lịch sử hình thành linux**
 
 - Linux được ra đời từ dự án cá nhân của một sinh viên vào năm 1991. Linux là một trong những nền tảng hệ điều hành mã nguồn mở và miễn phí đầu tiên được ra đời.
 
@@ -81,22 +81,15 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 -   **Nếu bạn là một người dùng cho việc kinh doanh:**  CentOS là lựa chọn lý tưởng, nếu bạn chạy đang vận hành công việc kinh doanh, hoặc nếu bạn là quan trọng việc bảo mật. Ubuntu có lợi thế là cập nhật nhanh nhưng có nhiều trường hợp thực tế là bạn phải dùng bản cũ vì bản mới gặp lỗi do chưa được kiểm tra kỹ. Hơn nữa, CentOS cũng có hỗ trợ cPanel, một điều quan trọng mà Ubuntu thiếu.
 
 **Bảng so sánh giữa Ubuntu và CentOS:**
+
 | Ubuntu | CentOS |
-
 | ------ | -------|
-
 |Dựa trên Debian | Dựa trên RHEL|
-
 |Cập nhật thường xuyên | Cập nhật quan trọng|
-
 |Không hỗ trợ cPanel(có phương pháp thay thế)|Hỗ trợ cPanel/WHM|
-
 |Cộng đồng người dùng và lập trình viên lớn| Cộng đồng người dùng và lập trình viên nhỏ hơn|
-
 | Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí|Trợ giúp online có thể ít hơn|
-
 |Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
-
 |Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
 ## Nguồn gốc của Unix
