@@ -93,6 +93,7 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 |Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
 ## Nguồn gốc của Unix
+
 - Nhắc đến Linux thì trước tiên, ta phải quay ngược thời gian để tìm hiểu về một cái tên khác, đó là **Unix**.
 - Unix là một hệ điều hành vốn ra đời đã từ rất lâu, tại phòng thí nghiệm Bell Labs của AT&T. Dự án được dẫn dắt bởi **Ken Thompson** và **Dennis Ritchie**, 2 nhà khoa học máy tính nổi tiếng.
 - Công việc phát triển Unix chính thức được bắt đầu vào mùa hè năm 1969, và phiên bản đầu tiên của Unix được ra đời vào tháng 3 năm 1971, tiếp đó là phiên bản thứ 2 ra đời năm 1972.
