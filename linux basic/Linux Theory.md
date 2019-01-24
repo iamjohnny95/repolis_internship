@@ -2,7 +2,7 @@
 
 - Linux được ra đời từ dự án cá nhân của một sinh viên vào năm 1991. Linux là một trong những nền tảng hệ điều hành mã nguồn mở và miễn phí đầu tiên được ra đời.
 
-** Một số distro của linux:**
+**Một số distro của linux:**
 
 - ***RedHat Linux***: là một trong những distro thương mại đầu tiên của GNU/Linux và được xem là chuẩn nhất trong số các distro khác. Phiên bản 1.0 đầu tiên ra mắt vào năm 1995 nhưng chỉ vài tháng sau đó, phiên bản 2.0 bổ sung công nghệ RPM (RPM Package Manager – Trình quản lý gói tin của Red Hat) tiếp tục được xuất bản. Sự ra đời của RPM giúp việc cài đặt, cập nhật, xóa, bổ sung các gói phần mềm trở nên dễ dàng hơn trước rất nhiều.
 
@@ -26,7 +26,7 @@
 
 **## 2 .Hệ điều hành phổ biến nhất Linux:**
 
-** Hệ điều hành ubuntu: ** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
+**Hệ điều hành ubuntu:** : ubuntu phát hành phiên bản chính thức vào năm 2014. Ubuntu có các phiên bản dành riêng cho Server và Openstack Cloud và các thiết bị được kết nối khác.
 
 - Ubuntu LTS: là phiên bản hỗ trợ dài hạn. Ubuntu liên tục tạo ra các phiên bản nâng cấp về bảo mật và cập nhật sửa lỗi. Hết thời gian hỗ trợ, họ khuyên là nên nâng cấp phiên bản, đồng thời ubuntu sẽ dừng support phiên bản cũ.
 
@@ -58,10 +58,10 @@
 
   
 
-** Hệ điều hành CentOS **: hệ điều hành chính thức ra đời năm 2004.
+**Hệ điều hành CentOS**: hệ điều hành chính thức ra đời năm 2004.
 
 - Các phiên bản phát hành của CentOS có hai phần, một phiên bản chính và một phiên bản nhỏ, tương ứng với phiên bản chính và cập nhật của Red Hat Enterprise Linux được xây dựng là phiên bản của CentOS. Ví dụ, CentOS 4.4 được xây dựng từ các gói nguồn từ Red Hat Enterprise Linux 4. Bắt đầu từ phiên bản 7 trở đi, các số phiên bản CentOS sẽ được bao gồm thêm một phần số cho biết ngày tháng năm phát hành. Ví dụ phiên bản 7.0 -1406
-## ** So sánh 2 phiên bản Ubuntu và CentOS**
+##** So sánh 2 phiên bản Ubuntu và CentOS**
 au đây là khác biệt chính giữa Ubuntu và CentOS:
 
 1.  Khác biệt lớn nhất giữa 2 phiên bản Linux này là Ubuntu dựa trên Debian và CentTOS dựa trên in Red Hat Enterprise Linux.
@@ -80,15 +80,23 @@ Các điểm trên là điểm khác biệt chính mà bạn nên cân nhắc gi
 -   **Nếu bạn là người mới bắt đầu:**  hãy chọn Ubuntu vì cộng đồng người dùng lớn, nhiều tài liệu miễn phí và cập nhật thường xuyên. Giao diện Ubuntu desktop cũng dễ dùng hơn. CentOS cũng có thể được chọn nếu bạn không ngại tìm tòi và vượt qua vài trở ngại ban đầu.
 -   **Nếu bạn là một người dùng cho việc kinh doanh:**  CentOS là lựa chọn lý tưởng, nếu bạn chạy đang vận hành công việc kinh doanh, hoặc nếu bạn là quan trọng việc bảo mật. Ubuntu có lợi thế là cập nhật nhanh nhưng có nhiều trường hợp thực tế là bạn phải dùng bản cũ vì bản mới gặp lỗi do chưa được kiểm tra kỹ. Hơn nữa, CentOS cũng có hỗ trợ cPanel, một điều quan trọng mà Ubuntu thiếu.
 
-** Bảng so sánh giữa Ubuntu và CentOS: **
+**Bảng so sánh giữa Ubuntu và CentOS:**
 | Ubuntu | CentOS |
+
 | ------ | -------|
+
 |Dựa trên Debian | Dựa trên RHEL|
+
 |Cập nhật thường xuyên | Cập nhật quan trọng|
+
 |Không hỗ trợ cPanel(có phương pháp thay thế)|Hỗ trợ cPanel/WHM|
+
 |Cộng đồng người dùng và lập trình viên lớn| Cộng đồng người dùng và lập trình viên nhỏ hơn|
-| Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí| Trợ giúp online có thể ít hơn|
+
+| Các vấn đề lớn nhỏ đều có thể được hỗ trợ trên online forum, nhiều bài hướng dẫn miễn phí|Trợ giúp online có thể ít hơn|
+
 |Dễ học cho người mới dùng, và đã dùng qua Ubuntu desktop trong quá khứ| Khó học cho người mới, và không có desktop phổ biên|
+
 |Sử dụng **apt-get** package manager để cài đặt .deb packages|Dùng lệnh lệnh **yum** package manager để cài .rpm packages|
 
 ## Nguồn gốc của Unix
@@ -187,7 +195,7 @@ Bản phân phối này hiện cũng có được bản sắc riêng của mình
 Debian là một hệ điều hành chỉ bao gồm các phần mềm mã nguồn mở miễn phí. Dự án Debian đã hoạt động từ năm 1993, tức là khoảng 25 năm trước! Dự án này từ lúc ra đời đến nay luôn nhân được tôn trọng lớn trong cộng đồng các nhà phát triển. Đến nay, Debian vẫn đều đặn phát hành các phiên bản mới, nhưng đáng tiếc là các phiên bản mới này được Debian cập nhật chậm hơn nhiều so với các bản phân phối như Ubuntu hay Linux Mint. Điều này có thể làm cho nó ổn định và bảo thủ hơn và chứa đựng những yếu tố lý tưởng cho một số hệ thống.
 ### **Fedora**
 
-![Fedora](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay4.jpg)**
+![Fedora](https://st.quantrimang.com/photos/image/2018/10/05/so-sanh-nhung-ban-phan-phoi-linux-pho-bien-nhat-hien-nay4.jpg)
 
 Fedora là một dự án tập trung chủ yếu vào các phần mềm miễn phí. Bạn sẽ khó có thể tìm thấy cách dễ dàng để cài đặt các trình điều khiển đồ họa độc quyền trên Fedora, mặc dù các kho lưu trữ của bên thứ ba luôn có sẵn. Fedora vẫn đang được tập trung phát triển và tối ưu.
 
@@ -200,13 +208,4 @@ Fedora được Red Hat tài trợ và là nền tảng cho dự án Red Hat Ent
 
 Red Hat Enterprise Linux là một bản phân phối Linux thương mại dành cho máy chủ và máy trạm. Nó được phát triển dựa trên dự án nguồn mở Fedora, nhưng được thiết kế để trở thành một nền tảng ổn định với sự hỗ trợ lâu dài hơn.
 
-Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần mềm Red Hat Enterprise Linux chính thức của họ bị phân phối lại trái phép. Tuy nhiên, phần mềm cốt lõi lại là miễn phí và có mã nguồn mở, và CentOS xuất hiện. CentOS là một dự án cộng đồng lấy mã Red Hat Enterprise Linux, xóa tất cả các nhãn hiệu của Red Hat và được cung cấp cũng như phân phối miễn phí. Nói cách khác, đây là một phiên bản miễn phí của RHEL, vì vậy sẽ rất phù hợp nếu bạn muốn một nền tảng ổn định sẽ được hỗ trợ trong một thời gian dài. CentOS và Red Hat gần đây đã thông báo họ đang cộng tác với nhau, vì vậy CentOS hiện là một phần trong Red Hat.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM1MjkyMDMsLTE3ODEzMjQyNDYsLT
-EyNTE5MDY1NjUsLTE3ODEzMjQyNDYsNDc5NjA3MDQyLDEwNzI5
-ODg4OTQsLTE4ODA3NzQzMywxNDk5MTcxNDQ4LDE5MzAxNjgwMT
-AsLTMyMTU2MzM0OCwxNzM0NDA0NDI4LDE1NjcwNTYyMjAsLTEy
-MjM1MjkyMDMsLTYxNDE2NTM2MiwtMTU1NzIyMzg5NiwxMDk3OT
-k3ODg1LDQ0MTY5MzA1MiwxODU2ODcxMjgzLDk2MjcyNDk2Nywt
-MjA4ODc0NjYxMl19
--->
+Red Hat sử dụng luật bảo vệ thương hiệu để ngăn việc phần mềm Red Hat Enterprise Linux chính thức của họ bị phân phối lại trái phép. Tuy nhiên, phần mềm cốt lõi lại là miễn phí và có mã nguồn mở, và CentOS xuất hiện. CentOS là một dự án cộng đồng lấy mã Red Hat Enterprise Linux, xóa tất cả các nhãn hiệu của Red Hat và được cung cấp cũng như phân phối miễn phí. Nói cách khác, đây là một phiên bản miễn phí của RHEL, vì vậy sẽ rất phù hợp nếu bạn muốn một nền tảng ổn định sẽ được hỗ trợ trong một thời gian dài. CentOS và Red Hat gần đây đã thông báo họ đang cộng tác với nhau, vì vậy CentOS hiện là một phần trong Red Hat
