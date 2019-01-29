@@ -1,5 +1,7 @@
 ## Cấu trúc file hệ thống 
-- Trên nhiều hệ thống , bao gồm hệ thống Linux, file hệ thống đã được cấu trúc giống 1 nhánh cây. 
+- Trên nhiều hệ điều hành, bao gồm cả linux, filesystem có cấu trúc giống như cây. Cây thường được miêu tả ngược, thường bắt đầu thừ thư mục root (/) tất cả các thứ mục khác sẽ là con của thư mục này.
+- Đơn giản filesystem là các quy chuẩn về: cách thức cấp phát không gian lưu trữ cho file, quản lý thuộc tính của file, cách tổ chức sắp xếp dữ liệu trên các thiết bị sao cho việc tìm kiếm, truy cập đến dữ liệu nhanh chóng và thuận tiện.
+
 ## Các định dạng filesystem trong linux
 Ext – Extended file system: là định dạng file hệ thống đầu tiên được thiết kế dành riêng cho Linux. Có tổng cộng 4 phiên bản Ext1, Ext2, Ext3, Ext4. Hiện nay đa phần người dùng sử dụng định dạng Ext4 vì nó có thể giảm bớt hiện tượng phân mảnh dữ liệu trong ổ cứng, hỗ trợ các file và phân vùng có dung lượng lớn…
 XFS: Khá tương đồng với Ext4 về một số mặt nào đó, chẳng hạn như hạn chế được tình trạng phân mảnh dữ liệu, không cho phép các snapshot tự động kết hợp với nhau, hỗ trợ nhiều file dung lượng lớn, có thể thay đổi kích thước file dữ liệu…
