@@ -20,12 +20,12 @@
 `free -m`
 - Các thông số sẽ ra như bảng dưới. Máy đã sử dụng 5G cho bộ nhớ swap
 
-```
+
 | |total|used|free|shared|buff/cache|available|
 |---|---|---|---|---|---|---|
 |Mem:|991|115|747|7|128|725|
 |swap:|5119|0|5119|
-```
+
 - Bây giờ sử dụng lệnh `df-h` để kiểm tra dụng lượng trong ổ đĩa còn trống bao nhiêu. Từ đó tính toán dung lượng để khởi tạo swap
 
 ### **Tạo Swap file**
