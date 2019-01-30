@@ -89,6 +89,7 @@
  |conv=Convs|Chỉ ra tác vụ cụ thể của câu lệnh, các tùy chọn được ghi dưới bảng sau đây|
 
  - Các tùy chọn của conv
+ 
  |**Tùy chọn**|**Ý nghĩa**|
  |------------|-----------|
  |nocreat|Không tạo ra file đầu ra|
