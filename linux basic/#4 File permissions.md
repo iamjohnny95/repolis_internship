@@ -37,3 +37,39 @@ và
 `$ chmod g+s yourfile`
 - **Sticky Bit**: người dùng chỉ có thể xóa những file mà chính họ tạo ra trong thư mục được thiết lập **Sticky bit**. Để bật **Sticky bit** cho một thư mục chúng ta thực hiện:
 `$ chmod +t stickyfolder`
+
+- Ngoài ra người ta sử dụng thêm một bit thứ 4 để biểu diễn suid, sgid và sticky bit
+
+|**Permision**|**Number**|
+|suid|4000|
+|sgid|2000|
+|sticky|1000|
+
+## **Giá trị umask**
+
+- Trong Linux, khi một file hay một thư mục được tạo ra thì các quyền hạn truy cập đối với chúng là (read, write, execute) cho các chủ thể (owner, group, other) sẽ được xác định dựa trên hai giá trị là quyền truy nhập cơ sở (base permission) và mặt nạ (mask).
+
+  -  Base Permission là giá trị được thiết lập sẵn từ trước, và ta không thể thay đổi được
+
+- Đối với file thông thườnggiá trị base perm là 666 (rw-rw-rw-)
+
+- Đối với thư mục (file đặc biệt) giá trị base perm là 777 (rwxrwxrwx)
+
+   - Mask là giá trị đựợc thiết lập bởi người dùng bằng lệnh `umask`
+
+ - Vậy các quyền được tạo ra này được thiết lập như thế nào? Có thể sửa được không? Tất nhiên là có thể. Hãy sử dụng umask (tạm dịch là mặt nạ).Quyền truy cập cho phép là kết quả giữa phép toán sau:
+```
+ Quyền truy cập cho phép = "quyền truy cập mặc định" AND {NOT (Giá trị umask)}
+ ```
+
+- Chú ý:
+  - Bạn có thể đặt umask=000 sau đó tạo thử file và thư mục để biết được quyền truy cập mặc định.
+
+  - Giá trị mặc định của umask thường được đặt trong file .bashrc hay .bash_profile trong thư mụcHOME và giá trị thường là 022. Nếu vậy nó sẽ loại bỏ quyền ghi dành cho nhóm và other từ quyền mặc định. Ở ví dụ trên thì kết quả là 644.
+
+  - Nếu bạn chỉ định các quyền khi tạo thì umask sẽ không có tác dụng gì cả:
+
+  ```
+  mkdir -m 744 demo # sẽ có quyền rwx r-- r--​
+  ```
+  
