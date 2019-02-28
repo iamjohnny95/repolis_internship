@@ -42,3 +42,55 @@ Một ngày nào đó, hệ thống đang vận hành bình thường, bạn đa
 
 Trình duyệt Opera chạy rất nhiều tiến trình, vậy ta thử tắt chúng đi, sử dụng lệnh kill -9 PID, ở trên hình ta sẽ thử tắt tiến trình có PID = 8768, như vậy command giờ sẽ là: kill -9 8768.
 
+**Bonus**
+- Tại một lúc không thể có 2 loại tiến trình có cùng pid.
+
+Khi bắt đầu một tiến trình (đơn giản là chạy một lệnh), có 2 cách để chạy nó:
+
+  - Foreground Process: Mặc định khi bắt đầu các tiến trình là Foreground, nhận input từ bàn phím và output tới màn hình. Trong khi chương trình chạy thì không thể chạy bất kỳ tiến trình nào khác
+
+  - Background Process: Chạy mà không cần kết nối với bàn phím của bạn. Lợi thế khi nó đang chạy tiến trình background vẫn có thể chạy các tiến trình khác.
+
+Để bắt đầu một tiến trình Background thì thêm dấu & vào cuối câu lệnh ví dụ
+
+` $ ls &`
+
+- Ở đây lệnh `ls` muốn có một đầu vào, nó tiến vào trạng thái dừng tới khi bạn chuyển nó vào trong foreground.
+
+Liệt kê các tiến trình đang chạy
+
+```
+$ ps
+  PID TTY          TIME CMD
+ 6085 pts/1    00:00:00 bash
+ 6116 pts/1    00:00:00 ps
+$ ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+ubuntu    6085  6084  0 08:58 pts/1    00:00:00 -bash
+ubuntu    6117  6085  0 09:03 pts/1    00:00:00 ps -f
+```
+
+Trong đó:
+
+|Thông số|Miêu tả|
+|---|---|
+|UID|ID người sử dụng mà tiến trình này thuộc sở hữu (người chạy nó)|
+|PID|Process ID.|
+|PPID|Process ID gốc (ID của tiến trình mà bắt đầu nó).|
+|C|CPU sử dụng của tiến trình.|
+|STIME|Thời gian bắt đầu tiến trình.|
+|TTY|Kiểu terminal liên kết với tiến trình.|
+|TIME|Thời gian CPU bị sử dụng bởi tiến trình.|
+|CMD|Lệnh mà bắt đầu tiến trình này.|
+
+- Một số lệnh với `ps`:
+
+  - `ps -ef` - Liệt kê các process đang chạy bây giờ. (Một command tương tự là ps aux)
+  - `ps -f -u user1,user2` - Sẽ hiển thị các process dựa trên UID (userid hoặc username)
+  - `ps -f -pid ID` - Hiển thị tất cả các process dựa trên process ID (pid). Điền PID hoặc PPID thay vào chỗ ID. Có thể được dùng với PPID để lọc process dựa trên parent ID.
+  - `ps -C command/name` - Lọc Processes dựa trên tên của nó hoặc command 
+  - `ps aux –sort=-pcpu,+pmem` Hiển thị process đang dùng nhiều tài nguyên nhất của CPU. 
+  - `ps -e -o pid, uname, pcpu, pmem, comm` - Được dùng để lọc column được chỉ định
+  - `ps -e -o pid, comm, etime` - Việc này sẽ hiển thị thời gian đã được dùng của process.
+  
+

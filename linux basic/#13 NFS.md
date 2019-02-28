@@ -87,6 +87,17 @@ firewall-cmd --reload
 ```
 yum install nfs utils
 ```
+- Khởi động dịch vụ 
+```
+systemctl enable rpcbind 
+systemctl enable nfs-server
+systemctl enable nfs-lock
+systemctl enable nfs-idmap
+systemctl restart rpcbind
+systemctl restart nfs-server
+systemctl restart nfs-lock
+systemctl restart nfs-idmap
+```
 
 - Tiếp theo đó tạo thư mục để truyền dữ liệu đến 
 ```

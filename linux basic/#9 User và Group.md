@@ -118,6 +118,7 @@ root:$6$zRj5lAjC$yPyG5ETmtxZN3QfnsSIAPBW11Q2nQGLgXuilKQN1fVJuCLDSrGwy1XYKw0SboMG
 
 
 
+
 Trong file này mật khẩu sử dụng thuật toán SHA 512 để băm giá trị khóa 
 
 - 3 file bash trong /home/[user_name]
@@ -130,6 +131,52 @@ Trong file này mật khẩu sử dụng thuật toán SHA 512 để băm giá t
        Shell đăng nhập cá nhân sẽ quét file ,thực thi khi shell đăng nhập tồn tại
 
 ```
+
+## **Reset password**
+**Trên centos**
+Khi khởi động đến giao diện 
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/1.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/1.png)
+
+Chọn `e` ta sẽ thấy giao diện 
+
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/2.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/2.png)
+
+Di chuyển xuống gần cuối tìm dòng có hai từ `rhgb` và `quiet`, xóa chúng đi 
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/3.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/3.png)
+
+Và thêm vào cuối dòng đó đoạn sau: `rd.break enforcing=0`
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/4.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/4.png)
+
+Cuối cùng ấn `ctrl +x` để load system, sau đó sẽ vào được giao diện như dưới đây:
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/5.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/5.png)
+
+mount lại:
+
+`mount -o remount,rw /sysroot`
+
+Chuyển file system của root bằng lệnh: chroot /sysroot
+
+Sau đó đặt lại password bằng lệnh `passwd`
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/RSP/6.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/RSP/6.png)
+
+
+
+
+
+
+
 
 ## **Tạo group**
 
