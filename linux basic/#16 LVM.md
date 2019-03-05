@@ -1,6 +1,18 @@
 **LVM là gì:**
-- LVM là một phương pháp cho phép ấn định không gian đĩa cứng thành những Logical Volume khiến cho việc thay đổi kích thước trở nên dễ dàng (so với partition)
-- Với kỹ thuật Logical Volume Manager(LVM) bạn có thể thay đổi kích thước mà không cần phải sửa lại table của OS. Điều này thật hữu ích vói những trường hợp bạn đã sử dụng hết phần bộ nhớ còn trống của partition và muốn mở rộng dung lượng của nó. 
+**1.1 Khái niệm, Tổng quan**
+
+LVM (Logical Volume Manager) là một kỹ thuật cho phép tạo ra các không gian ổ đĩa ảo từ ổ đĩa cứng để có thể thay đổi kích thước dễ dàng hơn
+
+- Một số ứng dụng của LVM:
+
+	- Quản lý một lượng lớn ổ đĩa một cách dễ dàng.
+
+	- Điều chỉnh phân vùng ổ cứng một cách linh động 
+
+	- Backup hệ thống bằng cách snapshot các phân vùng ổ cứng (real-time)
+
+	- Migrate dữ liệu dễ dàng.
+
 
 **1.2 Vai trò của LVM**
 
@@ -14,7 +26,7 @@ LVM là kỹ thuật quản lý việc thay đổi kích thước lưu trữ c�
 **Mô hình các thành phần trong LVM**
 
  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/1.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/1.png)
+
 
 **Hard drives -Drives**
 Thiết bị lưu trữ dữ liệu, ví dụ như trong linux là `/dev/sda/`
@@ -24,7 +36,8 @@ Partitions là các phân vùng của Hard drivers, mỗi Hard drivers có 4 par
 
 	- **Primary partition:**
 
-	- Phân vùng chính, có thể khởi động 
+	- Phân vùng chính, có thể khởi động
+
 	- Mỗi đĩa cứng có thể có tối đa 4 phân vùng này 
 
 	- **Extended partition:**
@@ -60,6 +73,21 @@ Partitions là các phân vùng của Hard drivers, mỗi Hard drivers có 4 par
 	- Sắp xếp dữ liệu trên đĩa cứng mọi máy tính
 
 	- Quản lý vị trí vật lý của mọi thành phần dữ liệu
+
+**Một số tính năng cơ bản của Logical Volume**
+
+- Di chuyển LV giữa các PV khác nhau 
+
+- Thay đổi kích thước của VG online bằng cách gắn thêm hoặc tháo bớt PV.
+
+- Thay đổi kích thước của LV bằng cách thay đổi số lượng extent của PV này.
+
+- Tạo snapshot của các LV (giữ nguyên toàn bộ trạng thái của LV vào thời điểm đó).
+
+
+
+
+
 
 ## **Hướng dẫn sử dụng LVM**
 
@@ -333,6 +361,137 @@ Cuối cùng là xóa Physical Volume:
 `# pvremove /dev/sdb3`
 
 - Vậy là mình đã hoàn thành một bài lab đơn giản về LVM.
+
+## **LVM Migrating**
+
+- LVM là một tính năng của LVM cho phép tạo ra một bản sao dữ liệu từ một Logical Volume này đến một ổ đĩa mới mà không làm mất dữ liệu hay xảy ra tình trạng downtime.
+
+- User case: Khi có một ổ cứng cũ bị lỗi, bạn muốn thêm một ổ cứng mới gắn và di chuyển dữ liệu ổ cũ sang ổ này thì migrating là một lựa chọn tốt của LVM.
+
+**Thực hành**
+
+- Tạo một mirror volume với câu lệnh 
+
+`lvcreate -L 1G -m 1 -n lv-mirror vg-demo1`
+
+Lệnh này sẽ tạo ra một logical volume `lv-mirror` và một bản mirror của nó với tùy chọn `-m 1`
+
+Tiếp theo tạo một thư mục để mount vào logical volume này và kiểm tra tính năng này:
+
+```
+mkfs.ext4 /dev/vg-demo1/lv-mirror 
+mkdir demo2
+mount /dev/vg-demo1/lv-mirror demo2
+```
+
+- Tạo một file trong thư mục mới tạo
+
+```
+cd demo2
+echo "Hello World." >> greet.txt
+```
+
+- Kiểm tra thông tin về Logical Volume bằng lệnh sau:
+
+```
+[root@ipmac demo2]# lvs -a -o +devices
+  Couldn't find device with uuid YP0Uh8-oHu4-a7Nv-Sz6J-mSOE-SqmL-Pfi0dK.
+  Couldn't find device for segment belonging to VG3/LV1 while checking used and assumed devices.
+  Couldn't find device with uuid Xzpm0g-NWTN-03XD-XmyV-KnXt-bDWW-DeBaQz.
+  LV                   VG        Attr       LSize  Pool Origin Data%  Meta%  Move Log              Cpy%Sync Convert Devices
+  LV1                  VG1       -wi-ao----  5.00g                                                                  /dev/sde(0)
+  LV1                  VG2       -wi-ao----  5.00g                                                                  /dev/sdd(0)
+  LV2                  VG2       -wi-ao----  3.00g                                                                  /dev/sdd(1280)
+  LV1                  VG3       -wi-a---p- 10.00g                                                                  /dev/sdg(0)
+  LV1                  VG3       -wi-a---p- 10.00g                                                                  unknown device(0)
+  lv-demo1             vg-demo1  -wi-ao---- 20.00m                                                                  /dev/sdh1(0)
+  lv-mirror            vg-demo1  mwi-aom---  1.00g                                [lv-mirror_mlog] 100.00           lv-mirror_mimage_0(0),lv-mirror_mimage_1(0)
+  [lv-mirror_mimage_0] vg-demo1  iwi-aom---  1.00g                                                                  /dev/sdj1(0)
+  [lv-mirror_mimage_1] vg-demo1  iwi-aom---  1.00g                                                                  /dev/sdh2(0)
+  [lv-mirror_mlog]     vg-demo1  lwi-aom---  4.00m                                                                  /dev/sdh1(5)
+  lv_root              vg_centos -wi-ao---- 37.57g                                                                  /dev/sda2(0)
+  lv_swap              vg_centos -wi-ao----  1.94g                                                                  /dev/sda2(9618)
+```
+- Ta thấy được `lv-mirror` đang gắn với lv-mirror_rimage_0(0) và lv-mirror_rimage_1(0), mà lv-mirror_rimage_0(0) đang gắn với `/dev/sdb1`, lv-mirror_rimage_1(0) đang gắn với `/dev/sdb2`. Như vậy ta có thể thấy dữ liệu lưu trên Mirror Volume được lưu ở hai chỗ.
+
+- Nếu muốn xóa một bản đi, ta sử dụng lệnh sau:
+
+```
+lvconvert -m 0 /dev/vg-demo1/lv-mirror /dev/sdh1
+```
+
+Kết quả:
+
+```
+
+[root@ipmac demo2]# lvs -a -o +devices
+  Couldn't find device with uuid YP0Uh8-oHu4-a7Nv-Sz6J-mSOE-SqmL-Pfi0dK.
+  Couldn't find device for segment belonging to VG3/LV1 while checking used and assumed devices.
+  Couldn't find device with uuid Xzpm0g-NWTN-03XD-XmyV-KnXt-bDWW-DeBaQz.
+  LV        VG        Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert Devi                                                                        ces
+  LV1       VG1       -wi-ao----  5.00g                                                     /dev                                                                        /sde(0)
+  LV1       VG2       -wi-ao----  5.00g                                                     /dev                                                                        /sdd(0)
+  LV2       VG2       -wi-ao----  3.00g                                                     /dev                                                                        /sdd(1280)
+  LV1       VG3       -wi-a---p- 10.00g                                                     /dev                                                                        /sdg(0)
+  LV1       VG3       -wi-a---p- 10.00g                                                     unkn                                                                        own device(0)
+  lv-demo1  vg-demo1  -wi-ao---- 20.00m                                                     /dev                                                                        /sdh1(0)
+  lv-mirror vg-demo1  -wi-ao----  1.00g                                                     /dev                                                                        /sdj1(0)
+  lv_root   vg_centos -wi-ao---- 37.57g                                                     /dev                                                                        /sda2(0)
+  lv_swap   vg_centos -wi-ao----  1.94g                                                     /dev                                                                        /sda2(9618)
+```
+
+Kiểm tra lại nội dung file `greet.txt` lúc đầu đã tạo ta thấy không có gì thay đổi, dữ liệu vẫn còn nguyên.
+
+## **LVM Snapshot**
+
+**Snapshot LVM là gì**
+
+- Snapshot là một tính năng của LVM cho phép một bản sao lưu của thời điểm hiện tại để backup cho sau này, ta có thể khôi phục lại thời điểm đã backup trước đó nếu cần.
+
+**Thực hành**
+
+- Ở đây, tôi sẽ tạo một bản snapshot cho Logical Volume `lv-demo1`. Sử dụng lệnh:
+
+```
+lvcreate -l 50 --snapshot -n lv-demo1-snapshot /dev/vg-demo1/lv-demo1
+```
+
+- Kiểm tra bằng lệnh `lvs` sẽ có thể xem được lệnh snapshot tạo ra.
+
+- Vì Snapshot LVM cũng là một Logical Volume nên có thể xóa, tăng giảm kích thước như Logical Volume. Ví dụ nếu muốn xóa snapshot đi:
+
+`lvremove /dev/vg-demo1/lv_demo1-snapshot`
+
+- Để phục hồi lại một snapshot, trước tiên cần unmount Logical Volume của của bản snapshot trước (không phải bản snapshot)
+
+```
+umount -v /dev/vg-demo1/lv-demo1
+lvconvert --merge /dev/vg-demo1/lv-demo1-snapshot
+```
+
+## **Thin Provisioning trong LVM**
+
+- Thin Provisioning là một tính năng nữa của LVM, nó cho phép tạo ra những ổ đĩa ảo từ storage pool giúp tận dụng tối đa tài nguyên của ổ đĩa. 
+
+- Ví dụ một storage pool có dung lượng là 15 GB, cấp cho 3 người, mỗi người 5GB, tổng tất cả mới sử dụng hết 6GB, nếu có thêm một user nữa thì sẽ không thể mắc cấp phát mặc dù thừa rất nhiều dung lượng trống (Thick volume). Để giải quyết vấn đề đó, ta có thể sử dụng Thin Provisioning. Khi đó bạn có thể cấp phát thêm cho user thứ 4 5GB để sử dụng. Cái này có nghĩa dùng bao nhiêu cấp bấy nhiêu sẽ đỡ lãng phí tài nguyên.
+
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/21.png)]
+(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/21.png)
+
+- Đầu tiên cần cài đặt gói:
+```
+yum install -y device-mapper-persistent-data
+```
+
+- Tạo một Volume Group
+```
+
+. 
+
+
+
+
+
 
 
 
