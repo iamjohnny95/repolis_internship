@@ -227,7 +227,7 @@ Kiểm tra lại dung lượng của thư mục đã được mount:
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/11.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/11.png)
 
 
-##**2.3 Thay đổi dung lượng Logical Volume trên LVM**
+## **2.3 Thay đổi dung lượng Logical Volume trên LVM**
 
 - Ở phần trước, mình đã tiến hành tạo Logical Volume trong LVM. Ở phần này, chúng ta sẽ tìm hiểu làm thế nào để có thể thay đổi dung lượng của 1 Logical Volume đã được tạo ở phần trước.
 
@@ -251,7 +251,7 @@ Logical Volume này thuộc Volume Group vg-demo1, để tăng kích thước, b
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/13.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/13.png)
 
 
-Volume Group ở đây vẫn còn dung lượng để cấp phát, ta có thể nhận thấy điều này qua 2 trường thông tin là VG Status resizable và Free PE / Size 510 / 1.99 GiB với dung lượng Free là 510*4 = 2040 Mb
+Volume Group ở đây vẫn còn dung lượng để cấp phát, ta có thể nhận thấy điều này qua 2 trường thông tin là VG Status resizable và Free PE / Size 510 / 1.99 GiB với dung lượng Free là 510\*4 = 2040 Mb
 
 - Để tăng kích thước Logical Volume ta sử dụng câu lệnh sau:
 
