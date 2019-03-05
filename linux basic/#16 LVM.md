@@ -25,8 +25,7 @@ LVM là kỹ thuật quản lý việc thay đổi kích thước lưu trữ c�
 
 **Mô hình các thành phần trong LVM**
 
- [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/1.png)]
-
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/1.png)]
 
 **Hard drives -Drives**
 Thiết bị lưu trữ dữ liệu, ví dụ như trong linux là `/dev/sda/`
@@ -97,9 +96,7 @@ Partitions là các phân vùng của Hard drivers, mỗi Hard drivers có 4 par
 
 	- Add thêm một số ổ cứng vào máy ảo 
 
-
- [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/2.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/2.png)
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/2.png)]
 
 
 **2.2 Tạo Logical Volume trên LVM**
@@ -111,7 +108,6 @@ Bạn có thể kiểm tra xem có những Hard Drives nào trên hệ thống b
 `#lsblk`
 
  [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/3.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/3.png)
 
 Trong đó sdj, sdk, sdh,là các Hard Drives mà mình mới thêm vào
 
@@ -122,8 +118,6 @@ Trong đó sdj, sdk, sdh,là các Hard Drives mà mình mới thêm vào
 `fdisk /dev/sdh`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/4.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/4.png)
-
 	- Trong đó bạn chọn `n` để bắt đầu tạo partition
 
 	- Bạn chọn `p` để tạo partition primary
@@ -139,7 +133,6 @@ Trong đó sdj, sdk, sdh,là các Hard Drives mà mình mới thêm vào
 - Tiếp theo thay đổi định dạng của partition vừa mới tạo thành LVM
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/5.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/5.png)
 
 	- Bạn vào `fdisk /dev/sdh`
 
@@ -151,13 +144,10 @@ Trong đó sdj, sdk, sdh,là các Hard Drives mà mình mới thêm vào
 
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/6.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/6.png)
 
 Tạo các partition primary từ `sdj` bằng lệnh `fdisk /dev/sdj`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/7.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/7.png)
-
 **B3. Tạo Physical Volume**
 
 Tạo các Physical Volume là `/dev/sdh1` và `/dev/sdj1` bằng các lệnh sau:
@@ -169,7 +159,6 @@ Tạo các Physical Volume là `/dev/sdh1` và `/dev/sdj1` bằng các lệnh sa
 Bạn có thể kiểm tra các Physical Volume bằng câu lệnh `pvs`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/8.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/8.png)
 
 **B4. Tạo Volume Group**
 
@@ -186,7 +175,6 @@ Có thể sử dụng câu lệnh sau để kiểm tra lại các Volume Group �
 `# vgdisplay`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/9.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/9.png)
 
 **B5. Tạo Logical Volume**
 
@@ -207,7 +195,6 @@ Có thể sử dụng câu lệnh sau để kiểm tra lại các Logical Volume
 `# lvs`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/10.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/10.png)
 
 **B6. Định dạng Logical Volume**
 
@@ -230,7 +217,6 @@ Kiểm tra lại dung lượng của thư mục đã được mount:
 `# df -h`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/11.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/11.png)
 
 ##**2.3 Thay đổi dung lượng Logical Volume trên LVM**
 
@@ -245,7 +231,6 @@ Trước khi thay đổi dung lượng, các bạn cần phải kiểm tra các 
 `# pvs`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/12.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/12.png)
 
 Ở đây, mình đã tạo được Logical Volume là lv-demo1, và giả sử Logical Volume này dung lượng đã đầy và chúng ta cần tăng kích thước của nó.
 
@@ -254,7 +239,6 @@ Logical Volume này thuộc Volume Group vg-demo1, để tăng kích thước, b
 `# vgdisplay`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/13.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/13.png)
 
 Volume Group ở đây vẫn còn dung lượng để cấp phát, ta có thể nhận thấy điều này qua 2 trường thông tin là VG Status resizable và Free PE / Size 510 / 1.99 GiB với dung lượng Free là 510*4 = 2040 Mb
 
@@ -265,19 +249,16 @@ Volume Group ở đây vẫn còn dung lượng để cấp phát, ta có thể 
 Với `-L` là tùy chọn để tăng kích thước
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/14.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/14.png)
 
 Kiểm tra lại bằng cách dùng lệnh `# lvs`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/15.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/15.png)
 
 Sau khi tăng kích thước cho Logical Volume thì Logical Volume đã được tăng nhưng file system trên volume này vẫn chưa thay đổi, bạn phải sử dụng lệnh sau để thay đổi:
 
 `# resize2fs /dev/vg-demo1/lv-demo1`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/16.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/16.png)
 
 - Để giảm kích thước của Logical Volume, trước hết các bạn phải umount Logical Volume mà mình muốn giảm
 
@@ -298,7 +279,6 @@ Cuối cùng là mount lại Logical Volume
 Kiểm tra kết quả ta được như sau:
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/17.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/17.png)
 
 ## **2.4 Thay đổi dung lượng Volume Group trên LVM**
 
@@ -313,15 +293,13 @@ Kiểm tra kết quả ta được như sau:
 `# lsblk`
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/18.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/18.png)
 
 - Tiếp theo, nhóm thêm 1 partition vào Volume Group như sau:
 
 `# vgextend /dev/vg-demo1 /dev/sdh2`    
 
 
-[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/18.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/18.png)
+[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/19.png)]
 
 - Ở đây, muốn nhóm vào Volume Group phải là Physical Volume nên hệ thống đã tự động tạo cho mình Physical Volume và nhóm vào Volume Group.
 
@@ -331,7 +309,6 @@ Kiểm tra kết quả ta được như sau:
 
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/20.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/20.png)
 
 
 ## **2.5 Xóa Logical Volume, Volume Group, Physical Volume**
@@ -476,7 +453,6 @@ lvconvert --merge /dev/vg-demo1/lv-demo1-snapshot
 - Ví dụ một storage pool có dung lượng là 15 GB, cấp cho 3 người, mỗi người 5GB, tổng tất cả mới sử dụng hết 6GB, nếu có thêm một user nữa thì sẽ không thể mắc cấp phát mặc dù thừa rất nhiều dung lượng trống (Thick volume). Để giải quyết vấn đề đó, ta có thể sử dụng Thin Provisioning. Khi đó bạn có thể cấp phát thêm cho user thứ 4 5GB để sử dụng. Cái này có nghĩa dùng bao nhiêu cấp bấy nhiêu sẽ đỡ lãng phí tài nguyên.
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/LVM/21.png)]
-(https://github.com/iamjohnny95/repolis_internship/blob/master/img/LVM/21.png)
 
 - Đầu tiên cần cài đặt gói:
 ```
@@ -485,9 +461,34 @@ yum install -y device-mapper-persistent-data
 
 - Tạo một Volume Group
 ```
+vgcreate -s 32M vg-thin /dev/sdj2
+```
 
-. 
+- Tạo một LV thin pool với kích thước 2GB 
 
+```
+lvcreate -L 2G --thinpool thin-meditech vg-thin
+lvs
+```
+
+Tạo các Thin Volume
+```
+lvcreate -V 512M --thin -n thin-si1 vg-thin/thin-meditech
+lvcreate -V 512M --thin -n thin-si2 vg-thin/thin-meditech
+lvcreate -V 1G --thin -n thin-si3 vg-thin/thin-meditech
+lvcreate -V 2G --thin -n thin-si4 vg-thin/thin-meditech
+```
+Tạo thư mục, format và mount để sử dụng
+
+```
+mkdir /mnt/si{1..4}
+mkfs.ext3 /dev/vg-thin/thin-si1 && mkfs.ext3 /dev/vg-thin/thin-si2 && mkfs.ext3 /dev/vg-thin/thin-si3  mkfs.ext3 /dev/vg-thin/thin-si4
+mount /dev/vg-thin/thin-si1 /mnt/si1
+mount /dev/vg-thin/thin-si2 /mnt/si2
+mount /dev/vg-thin/thin-si3 /mnt/si3
+mount /dev/vg-thin/thin-si4 /mnt/si4
+```
+Tôi vừa tạo được 4 LV thin tổng 4G trên một pool chỉ có 2G mà vẫn được.
 
 
 
