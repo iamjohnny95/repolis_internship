@@ -522,3 +522,6 @@ Tôi vừa tạo được 4 LV thin tổng 4G trên một pool chỉ có 2G mà 
 
 
 
+
+
+
