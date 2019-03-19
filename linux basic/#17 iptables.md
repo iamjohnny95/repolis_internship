@@ -249,4 +249,86 @@ Tương tự bạn có thể chặn traffic đi tới một IP hoặc một dả
 `iptables -A OUTPUT -d 31.13.78.35 -j DROP`
 
 
+**Các ví dụ về iptables**
+
+- Cho phép máy client(hệ điều hành window) bên ngoài ssh đến máy chủ linux (máy chủ centos 6)
+
+**Chuẩn bị môi trường gồm có**
+
+- Máy window có địa chỉ 192.168.0.166
+
+- Máy server sử dụng hệ điều hành CentOS 6 có địa chỉ 192.168.220.16
+
+- Trên máy chủ linux 
+```
+ *filter
+:INPUT DROP [0:0]
+:FORWARD DROP [0:0]
+:OUTPUT DROP [0:0]
+-A INPUT -m state --state NEW,RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A INPUT -s 192.168.0.166 -p tcp --dport 53 -j ACCEPT
+-A INPUT -s 192.168.0.166 -p udp --dport 53 -j ACCEPT
+-A OUTPUT -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+COMMIT
+```
+
+- Restart lại dịch vụ rồi telnet bằng máy client 
+```
+telnet 192.168.220.16 53
+```
+
+Cấu hình máy centos có 2 card mạng đến một máy 
+
+- Máy chủ server có 2 card mạng là: 
+
+`192.168.220.16`
+`192.168.88.100`
+
+- Máy client có card mạng:
+
+`192.168.88.136`
+
+- Mạng của máy server có 2 dải mạng  `192.168.220.16` đi ra mạng internet, mạng `192.168.88.1` thuộc dải mạng host only
+
+- Mạng client `192.168.88.136` thuộc cùng lớp bạn với dải mạng 2 của server
+
+- Cấu hình iptables sao cho mạng client đi được internet 
+
+- Cấu hình trong thư mục 
+
+```
+vi /etc/sysconfig/iptables
+```
+
+```
+
+*filter
+:INPUT DROP [0:0]
+:FORWARD DROP [0:0]
+:OUTPUT DROP [0:0]
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A FORWARD -o eth1 -j ACCEPT
+-A FORWARD -i eth1 -j ACCEPT
+-A OUTPUT -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+COMMIT
+
+*nat
+:PREROUTING ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A POSTROUTING -o eth0 -j MASQUERADE
+COMMIT
+```
+
+- Sau đó sửa file trong ` vi /etc/sysctl.conf`
+
+- Sửa file `net.ipv4.ip_forward = 1` để cho nó forward ra địa chỉ mạng 
+
+- Sau đó check bên client đã đi được ra internet chưa 
 
