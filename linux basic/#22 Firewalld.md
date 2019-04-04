@@ -2,7 +2,7 @@
 
 Trên các Distro của Linux hầu như sử dụng netfilter bên trong kernel Linux để truy cập vào các gói dữ liệu qua network interface, cung cấp giao diện, thao tác với các gói tin để xây dựng tường lửa Để cung cấp giao diện cho người dùng, các bản Distro sử dụng IPTABLESđể làm móc nối Netfiltercho xây dựng tường lửa
 
-.Trên CentOS 7 , *firewallD * thay thế iptables services, nhưng vẫn giao tiếp tiếp Netfilter thông qua iptable command
+.Trên CentOS 7 , *firewallD* thay thế iptables services, nhưng vẫn giao tiếp tiếp Netfilter thông qua iptable command
 
 FirewallD được viết bằng ngôn ngữ Pyhon, cung cấp một tường lửa động trên Centos. Công cụ cho phép xác định độ tin cậy của gói tin qua các zone. FirewallD hỗ trợ IPv4, IPv6, ethernet bridges và IP sets	. Trong FirewallD, các quy tắc được cấu hình thời gian hiệu lực Runtime hoặc Permanent.
 
