@@ -58,8 +58,3 @@ Liên hệ zalo, telegram : 0982196042
 
 - video quảng cáo cho Mydigads là đi mượn (đã ghi nguồn) nên tôi sẽ gửi ảnh chứng minh 
 
-
-**Ảnh tài khoản Mydigads**
-
-[![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/5.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/5.png)
-

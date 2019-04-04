@@ -51,3 +51,5 @@ Cấu hình rule trong tường lửa cho phép truy cập từ bên ngoài vào
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/20.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/20.png)
 
+
+

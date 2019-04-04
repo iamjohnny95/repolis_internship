@@ -69,7 +69,6 @@ UID        PID  PPID  C STIME TTY          TIME CMD
 ubuntu    6085  6084  0 08:58 pts/1    00:00:00 -bash
 ubuntu    6117  6085  0 09:03 pts/1    00:00:00 ps -f
 ```
-
 Trong đó:
 
 |Thông số|Miêu tả|
@@ -92,5 +91,5 @@ Trong đó:
   - `ps aux –sort=-pcpu,+pmem` Hiển thị process đang dùng nhiều tài nguyên nhất của CPU. 
   - `ps -e -o pid, uname, pcpu, pmem, comm` - Được dùng để lọc column được chỉ định
   - `ps -e -o pid, comm, etime` - Việc này sẽ hiển thị thời gian đã được dùng của process.
-  
+
 

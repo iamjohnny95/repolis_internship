@@ -131,7 +131,7 @@ Copy các gói .rpm vào thư mục repository /repos/centos/6
 ```
  - Tạo file cấu hình repository mới 
 ```
-# vim /etc/yum.repos.d/local.repo
+# vi /etc/yum.repos.d/local.repo
 
 [local]
 name=Local Repository
@@ -152,8 +152,14 @@ gpgcheck=0
 ```
 
 
+## **Quản lý gói Debian và Ubuntu**
 
+- Hệ thống quản lý gói Debian, dựa trên một công cụ gọi là dpkg và hệ thống apt là một biện pháp hiệu quả, phổ biến và hữu ích của quản lý gói. Ngoài Debian, một số bản phân phối nổi bật khác của GNU/Linux có nguồn gốc từ hệ thống Debian, đáng chú ý là bản phân phối Ubuntu.
 
+- **Công cụ nâng cao gói (APT)**
+ Bạn có thể đã quen với apt-get, một lệnh trong đó sử dụng các công cụ đóng gói tiên tiến để tương tác với hệ thống gói của hệ điều hành. Các lệnh có liên quan và hữu ích nhất là (quyền được chạy với root):
+
+ 	- 
 
 
 
