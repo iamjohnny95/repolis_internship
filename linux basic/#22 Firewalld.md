@@ -104,7 +104,7 @@ firewall-cmd --reload
 - Show các zone trên server:
 
 ```
-firewall-cmd--getzones
+firewall-cmd--get-zones
 ```
 
 - Show zone mặc định, thường là zone Public
@@ -221,6 +221,12 @@ firewall-cmd --zone=internal --add-port=22/tcp --permanent
 firewall-cmd --zone=external --add-interface=ens192 --permanent
 firewall-cmd --zone=external --add-service=http --permanent
 ```
+- Thay đổi zone cho interface
+
+```
+firewall-cmd --zone=external --change-interface=ens33
+```
+
 
 - Apply cấu hình:
 
@@ -306,6 +312,15 @@ sudo firewall-cmd --perman --remove-rich-rule='rule source ipset=white-list port
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-all
 ```
+
+**Node**:
+
+- File cấu hình trong direct: `vi /etc/firewalld/direct.xml`
+
+- File cấu hình trong zone:`   vi /etc/firewalld/zones/public.xml`
+
+
+
 
 
 

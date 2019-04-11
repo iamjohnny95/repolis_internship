@@ -54,31 +54,24 @@ COMMIT
 - Cấu hình command:
 
 ```
-iptables -t filter -A INPUT -i ens37 -p tcp --drop 22 -j ACCEPT 
+iptables -t filter -A INPUT -i ens37 -p tcp --dport 22 -j ACCEPT 
 
-iptables -t filter -A INPUT -i DROP 
+iptables -t filter -A INPUT -i ens37 -j DROP 
 ```
 
 **Kiểm tra cấu hình**
 
-
-
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/2.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/2.png)
-
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/3.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/3.png)
 
-
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/4.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/4.png)
-
-
 
 ## Lab2 :
 
 **Mô hình**:
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/6.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/6.png)
-
 
 - Máy firewall có 3 card mạng: 
 
@@ -92,7 +85,6 @@ iptables -t filter -A INPUT -i DROP
 - Máy client có 1 card mạng:
 
 	- Card nối với client có dải địa chỉ: 192.168.20.20
-
 
 - Máy webserver có 1 card mạng:
 
@@ -120,7 +112,6 @@ iptables -t filter -A INPUT -i DROP
 
 - Test yêu cầu 
 
-
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/8.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/8.png)
 
 - Client chỉ có thể ping và web nhưng không ping ra ngoài internet
@@ -138,7 +129,6 @@ iptables -t filter -A INPUT -i DROP
 
 	- iptables -A FORWARD -s 192.168.20.20 -i eth2 -p tcp -m tcp --dport 80 -d 15.0.22.50 -j ACCEPT
 
-
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/10.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/10.png)
 
 - Cấm kết nối SSH từ client đến web
@@ -146,7 +136,6 @@ iptables -t filter -A INPUT -i DROP
 - Câu lệnh sử dụng 
 
 	- iptables -A FORWARD -s 192.168.20.20 -i eth2 -p tcp -m  tcp --dport 22 -d 15.0.22.50 -j DROP
-
 
 [![](https://github.com/iamjohnny95/repolis_internship/raw/master/img/iptables/11.png)](https://github.com/iamjohnny95/repolis_internship/blob/master/img/iptables/11.png)
 
