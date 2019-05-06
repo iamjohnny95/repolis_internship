@@ -139,6 +139,7 @@ fi
 
 Toán tử - nói đến rẽ nhánh thì đương nhiên những toán tử sau bắt buộc phải có. Trong bash shell có những toán tử cơ bản sau:
 
+
 |**Toán tử**|**Ý nghĩa**|**Số lượng toán hạng**|
 |-n|Chuỗi không empty, độ dài lớn hơn 0|1|
 |-z|Chuỗi empty, độ dài bằng 0|1|
@@ -151,6 +152,7 @@ Toán tử - nói đến rẽ nhánh thì đương nhiên những toán tử sau
 |-gt|toán hạng đầu lớn hơn toán hạng thứ 2 (cả 2 là số integer)|2|
 |-le|toán hạng đầu nhỏ hơn hoặc bằng toán hạng thứ 2 (cả 2 là số integer)|2|
 |-ge|toán hạng đầu lơn hơn hoặc bằng toán hạng thứ 2 (cả 2 là số integer)|2|
+
 
 Bạn có thể xem ví dụ sau để hiểu cách dùng if cũng như các toán hạng 
 
