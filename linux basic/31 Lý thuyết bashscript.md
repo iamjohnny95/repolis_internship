@@ -141,7 +141,7 @@ Toán tử - nói đến rẽ nhánh thì đương nhiên những toán tử sau
 
 
 |**Toán tử**|**Ý nghĩa**|**Số lượng toán hạng**|
-|||||
+|--|--|--|
 |-n|Chuỗi không empty, độ dài lớn hơn 0|1|
 |-z|Chuỗi empty, độ dài bằng 0|1|
 |-d|Tồn tại thự mục có tên là ...|1|
@@ -261,6 +261,7 @@ echo "Enter name of vehicle: "
 **So sánh số**
 
 |**Cú pháp**|**Ý nghĩa**|
+|--|--|
 |n1 -eq n2| Kiểm tra n1 =n2|
 |n1 -ne n2| Kiểm tra n1 khác n2|
 |n1 -lt n2| Kiểm tra n1 nhỏ hơn n2|
@@ -271,6 +272,7 @@ echo "Enter name of vehicle: "
 **So sánh chuỗi**
 
 |**Cú pháp**|**Ý nghĩa**|
+|---|--|
 |s1 =s2|Kiểm tra s1 =s2|
 |s1!= s2|Kiểm tra s1 khác s2|
 |-z s1|Kiểm tra s1 có kích thước bằng 0|
@@ -280,6 +282,7 @@ echo "Enter name of vehicle: "
 **Toán tử kết hợp**
 
 |**Cú pháp**|**Ý nghĩa**|
+|--|--|
 |!|Phủ định(not)|
 |-a|Và(and)|
 |-o|Hoặc(or)|
@@ -287,6 +290,7 @@ echo "Enter name of vehicle: "
 **Kiểm tra file(Thư mục)**
 
 |**Cú pháp**|**Ý nghĩa**|
+|--|--|
 |-f [file]|Kiểm tra xem file có phải là tệp hay không|
 |-d [file]|Kiểm tra xem file có phải là thư mục hay không|
 |-r [file]|Kiểm tra file có đọc (read) được hay không|
