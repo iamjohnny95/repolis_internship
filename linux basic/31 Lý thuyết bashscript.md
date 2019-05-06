@@ -141,6 +141,7 @@ Toán tử - nói đến rẽ nhánh thì đương nhiên những toán tử sau
 
 
 |**Toán tử**|**Ý nghĩa**|**Số lượng toán hạng**|
+|||||
 |-n|Chuỗi không empty, độ dài lớn hơn 0|1|
 |-z|Chuỗi empty, độ dài bằng 0|1|
 |-d|Tồn tại thự mục có tên là ...|1|
