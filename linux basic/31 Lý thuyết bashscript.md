@@ -179,16 +179,13 @@ fi
 
 Sau đây là cú pháp của vòng lặp for
 
-```
  
 Như bạn thấy thì vòng lặp for sẽ duyết qua tất cả các phần tử được phân cách nhau bởi dấu khoảng trắng, nên như chú ý ở trên với phần biến 
 
 nếu bạn có khoảng trắng trong giá trị của biến thì hãy sử dụng cặp nháy ""
 
 Trong bash shell thì ký tự * được hiểu là tất cả ký tự ví dụ *.bak thì bash sẽ hiểu là tất cả các file backup có đuôi .bak chẳng hạn. Nên 
-
 ta sẽ có một ví dụ chắc sẽ hữu ích hơn như là tìm trong một thư mục chỉ định mà gặp file backup thì di chuyển đến thư mục /home/backup 
-
 chẳng hạn.
 
 ```
@@ -213,6 +210,7 @@ do
 	X=$((X+1))
 done
 ```
+
 
 **Mảng**
 
