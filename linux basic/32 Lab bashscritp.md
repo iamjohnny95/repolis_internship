@@ -20,7 +20,7 @@ vi installer.sh
 Sau đó edit bằng nội dung sau:
 
 ```
-for i in ` cat /root/package.txt`;
+for i in `cat /root/package.txt`;
 do
         if [ `rpm -qa $i` ];then
                 echo "$i Da duoc cai dat!"
@@ -35,7 +35,7 @@ if [ -e /root/install.txt ];then
         do
                 echo "dang cai cho ty de"
                 yum install $i -y > /root/abc
-                if [ rpm -qa $i ]; then
+                if [ `rpm -qa $i` ]; then
                         echo $i >> /root/installed.txt
                 else
                         echo $i >> /root/notinstall.txt
@@ -43,6 +43,23 @@ if [ -e /root/install.txt ];then
         done
 
         rm -rf /root/install.txt
+
+        for i in `cat /root/installed.txt`;
+        do
+                echo "$i Da duoc cai dat them"
+        done
+
+        if [ -e /root/notinstall.txt ]; then
+                for i in `cat /root/notinstall.txt`;
+                do
+                        echo "Loi cai dat $i"
+                done
+        fi
+
+fi
+
+rm -rf /root/installed.txt
+
 ```
 
 Thêm quyền và thực thi file `chmod +x ./installer.sh ./installer.sh`
