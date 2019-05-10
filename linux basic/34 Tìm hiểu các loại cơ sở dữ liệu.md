@@ -108,6 +108,101 @@ các thông tin về cơ sở dữ liệu trên internet.
 
 	- **Nhanh**: Việc đưa ra một số tiêu chuẩn cho phép MySQL để làm việc hiệu quả và tiết kiệm chi phí, do đó làm tăng tốc độ thực thi.
 
+## **Tìm hiểu PostgreSQL**
+
+Postgre SQL là hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở tiên tiến mà mục đích tuân thủ theo chuẩn và khả năng mở rộng. Postgre SQL hay 
+
+còn gọi là Postgree áp dụng SQL ANSI/IOS cùng với các phiên bản. 
+
+So với các hệ quản trị cơ sở dữ liệu dạng quan hệ khác, PostgreSQL khá khác. Nó hỗ trợ hướng đối tượng mạnh mẽ và chức năng cơ sở dữ liệu 
+
+quan hệ. Ví dụ như hỗ trợ hoàn toàn cho các giao dịch đáng tin cậy như là Atomicity, Consistency, Isolation, Durability (ACID).
+
+- Ưu điểm của PostgreSQL
+
+	- **Là một chuẩn SQL phù hợp với hệ quản trị cơ sở dữ liệu quan hệ**: PostgreSQL là hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở, miễn
+
+	 phí và mạnh mẽ
+
+	- **Cộng đồng mạnh**: PostgreSQL được hỗ trợ bởi một cộng đồng nhiệt tình và đầy kinh nghiệm.
+
+	- **Hỗ trợ mạnh mẽ từ các bên thứ 3:** Bất kể các tính năng tiên tiến thì PostgreSQL đều được hỗ trợ bởi các công cụ tuyệt vời của bên 
+
+	 thứ 3 trong việc quản lý cơ sơ dữ liệu
+
+	 - **Sự mở rộng**: Nó có thể mở rộng lập trình PostgreSQL với các thủ tục lưu trữ, giống như một RDBMS tiên tiến.
+
+	 - **Đối tượng hóa**: PostgreSQL không chỉ là một hệ quản trị cơ sở dữ liệu quan hệ, mà nó còn đối tượng hóa dữ liệu.
+
+- Nhược điểm của PostgreSQL
+
+	-**Hiệu suất**: Đối với các toán tử đơn giản thì PostgreSQL thực hiện kém hiệu quả hơn so với các hệ quản trị cơ sở dữ liệu quan hệ 
+
+	khác như MySQL. Nhưng đối với toán tử phức tạp thì PostgreSQL thực hiện tốt hơn rất nhiều
+
+**7. Tìm hiểu NOSQL**
+
+- NoSQL có nghĩa là Non-Relational (NoRel) – không ràng buộc. Tuy nhiên, thuật ngữ đó ít phổ dụng hơn và ngày nay người ta thường dịch 
+
+NoSQL thành Not Only SQL – Không chỉ SQL. NoSQL ám chỉ đến những cơ sở dữ liệu không dùng mô hình dữ liệu quan hệ để quản lý dữ liệu trong 
+
+lĩnh vực phần mềm. Người ta phát triển NoSQL xuất phát từ yêu cầu cần những database có khả năng lưu trữ dữ liệu với lượng cực lớn, truy 
+
+vấn dữ liệu với tốc độ cao mà không đòi hỏi quá nhiều về năng lực phần cứng cũng như tài nguyên hệ thống và tăng khả năng chịu lỗi.
+
+- Các dạng NoSQL cơ bản
+
+**Key – value data stores**: Dữ liệu được dưới dạng cắp key-value. Giá trị được truy xuất thông qua key.
+
+	- **Ví dụ**: Redis, Dynomite, Project Voldemort.
+
+	- **Thường cho**: Content caching Applications
+
+	- **Ưu điểm**: Tìm kiếm nhanh
+
+	- **Nhược điểm**: Lưu dữ liệu không theo khuôn dạng nhất định
+
+
+**Column-based – Tabular**: Cơ sở dữ liệu tổ chức dưới dạng các bảng. Gần giống với mô hình RDBMS. Tuy nhiên, chúng lưu giữ dữ liệu bởi các 
+
+cột chứ không phải bằng các dòng. Nó khá thích hợp với để hiển thị bằng các phần mềm quản lý kho dữ liệu
+
+	- **Ví dụ** : Apache Hbase, Apache Cassandra, Hypertabl
+
+	- **Thường cho**: các hệ phân tán file
+
+	- **Ưu điểm**: Tìm kiếm nhanh, Phân tán dữ liệu tốt
+
+	- **Nhược điểm:** Hỗ trợ được với rất ít phần mềm
+
+**Document-based**: Dữ liệu (bán cấu trúc hay semi-structured) được lưu trữ và tổ chức dưới dạng một tập hợp các document. Các document này 
+
+linh hoạt, mỗi document có một tập nhiều trường.
+
+	- **Ví dụ** : Apache CouchDB và MongoDB
+
+	- **Thường cho**: Web applications
+
+	- **Ưu điểm**: Dùng khi dữ liệu nguồn không được mô tả đầy đủ
+
+	- **Nhược điểm**: Hiệu năng truy vấn, Không có cú pháp chuẩn cho câu truy vấn dữ liệu
+
+**Graph-based data-stores**: Những CSDL này áp dụng lý thuyết đồ thị trong khoa học máy tính để lưu trữ và truy xuất dữ liệu. Chúng tập trung vào tính rời rạc giữa các phần dữ liệu. Các phần tử đơn vị dữ liệu được biểu thị như một nút và liên kết với các thành phần khác bằng các cạnh.
+
+
+	- **Ví dụ** : Neo4j, InfiniteGraph, DEX
+
+	- **Thường cho**: Social networking, Hệ trợ giúp
+
+	- **Ưu điểm:** Ứng dụng các thuật toán trên đồ thị như Đường đi ngắn nhất, liên thông,…
+
+	- **Nhược điểm**: Phải duyệt nội bộ đồ thị, để trả lời lại các truy vấn. Không dễ để phân tán
+
+
+
+
+
+
 
 
 
