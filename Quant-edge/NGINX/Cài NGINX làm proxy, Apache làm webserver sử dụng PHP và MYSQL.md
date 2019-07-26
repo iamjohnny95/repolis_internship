@@ -1,9 +1,9 @@
 
-##**Làm việc tại Quantedge**
+## **Làm việc tại Quantedge**
 
-##**Tìm hiểu Nginx**
+## **Tìm hiểu Nginx**
 
-###**Hướng dẫn cài đặt web server dùng Nginx**
+### **Hướng dẫn cài đặt web server dùng Nginx**
 
 Máy chủ Web(Web Server) là máy tính mà trên đó cài đặt phần mềm phục vụ web, đôi khi người ta cũng gọi chính phần mềm đó là web server. Tất 
 
@@ -11,9 +11,9 @@ cả các web server đều hiểu và chạy được các file *.htm và *.htm
 
 hạn như IIS của Microsoft dành cho *.asp, *.aspx; Apache, Nginx dành cho *.php...; 
 
-##**Mô hình lab**
+## **Mô hình lab**
 
-##**Cài đặt NGINX, APACHE, PHP7, MARIADB(MYSQL), SAMBA làm môi trường lập trình web**
+## **Cài đặt NGINX, APACHE, PHP7, MARIADB(MYSQL), SAMBA làm môi trường lập trình web**
 
 **Bước 1: Cài các gói epel**
 

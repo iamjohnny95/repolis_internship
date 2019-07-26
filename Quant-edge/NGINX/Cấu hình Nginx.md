@@ -1,6 +1,6 @@
-##**Tìm hiểu Nginx**
+## *Tìm hiểu Nginx**
 
-##**Cài đặt NGINX**
+## **Cài đặt NGINX**
 
 Tạo file repo:
 
