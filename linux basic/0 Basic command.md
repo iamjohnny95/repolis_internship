@@ -97,3 +97,4 @@ export HISTCONTROL=ignoredups
 ```
 grep -e "$pattern" /home/*/.bash_history
 ```
+test
