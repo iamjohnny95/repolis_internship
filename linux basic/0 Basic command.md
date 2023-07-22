@@ -96,4 +96,6 @@ export HISTCONTROL=ignoredups
 
 ```
 grep -e "$pattern" /home/*/.bash_history
+
 ```
+edit from origin main branch
